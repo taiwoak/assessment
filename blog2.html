@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Blog</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/blog2.css">
+     <link rel="icon" href="img/img/image001.png" type="image/icon type">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+ <body id="myBody">
+     <header>
+         <nav class="wrapper">
+            <span class="logo">
+                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+            </span>
+            <ul class="nav-items">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li class="divservices"><a href="services.html" class="nav-services">Services</a>
+                    <div>
+                        <div class="service-nav">
+                            <a href="itsupport.html" class="service-nav1 servicenav2">
+                                <img src="img/img/MaskGroup.png" alt="IT Support" width="47px" height="47px">
+                                <span>
+                                    <h1>IT Support</h1>
+                                    <p>Software and Hardware Support</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="softdev.html" class="service-nav1 servicenav3">
+                                <img src="img/img/MaskGroup2.png" alt="Software Development" width="47px" height="47px">
+                                <span>
+                                    <h1>Software Development</h1>
+                                    <p>Web, Mobile, and Desktop</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="network.html" class="service-nav1 servicenav4">
+                                <img src="img/img/MaskGroup3.png" alt="Networking" width="43px" height="43px">
+                                <span>
+                                    <h1>Networking</h1>
+                                    <p>Networking and Security Design</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="consultancy.html" class="service-nav1 servicenav5">
+                                <img src="img/img/MaskGroup4.png" alt="Consultancy" width="47px" height="47px">
+                                <span>
+                                    <h1>Consultancy</h1>
+                                    <p>Support, Management, and Procurement</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="products.html" class="nav-products">Products</a></li>
+                <li><div> <a class="nav-company" onclick="myFunction()">Company</a>
+                          <span class="nav-border"></span>
+                    </div>
+                    <div id="companynav">
+                        <div class="company-nav">
+                            <a href="blog.html" class="company-nav1 companynav2">
+                                <img src="img/img/MaskGroup5.png" alt="Blog" width="48px" height="47px">
+                                <span>
+                                    <h1>Blog</h1>
+                                    <p>Our ideas and experience</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="about.html" class="company-nav1 companynav3">
+                                <img src="img/img/MaskGroup6.png" alt="About Us" width="48px" height="47px">
+                                <span>
+                                    <h1>About Us</h1>
+                                    <p>Be inspired about our uniqueness</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="career.html" class="company-nav1 companynav4">
+                                <img src="img/img/MaskGroup7.png" alt="Career" width="48px" height="47px">
+                                <span>
+                                    <h1>Career</h1>
+                                    <p>Enhance your knowledge with us</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="contact.html" class="company-nav1 companynav5">
+                                <img src="img/img/MaskGroup8.png" alt="" width="48px" height="47px">
+                                <span>
+                                    <h1>Contact Us</h1>
+                                    <p>Get in touch with us</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="nav-btn" onclick="myOpenFunction()">Get a Quote</button>
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>
+                            <span class="modal-form1">
+                                <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            </span>
+                            <div class="custom-select">
+                               <span><img src="img/img/down.png" alt="" id="select-img-down"></span>
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </nav>
+     </header>
+     <main>
+        <section class="main-blo2-con1">
+            <h1>Thoughts and words</h1>
+            <div class="main-blo2-con-img"></div>
+        </section>
+        <section class="main-section1 main-blo2-con2">
+            <img src="img/img/lock.png" alt="lock" width="12px" height="20px">
+            <img src="img/img/Whatsapp.png" alt="whatsapp" width="18px" height="17px">
+        </section>
+        <section class="main-section1 main-blo2-con3">
+            <div class="main-blo2-con3a">
+                <img src="img/img/Users.png" alt="user" width="31px" height="31px">
+                <p class="p1">By Bright Robert</p>
+                <img src="img/img/DateIcon.png" alt="date" width="28px" height="28px">
+                <p class="p2">August 20, 2022</p>
+                <p>Business</p>
+            </div>
+            <div class="main-blo2-con3b">
+                <img src="img/img/Fb.png" alt="facebook" width="16px" height="16px">
+                <img src="img/img/Tt.png" alt="twitter" width="17px" height="17px">
+            </div>
+        </section>
+        <section class="main-blo2-con4">
+            <p class="p1">Coming from a science background, not many people would have expected Blessing Abeng to become a force in the marketing and communications industry. Yet, she has been a part of building successful companies like Disha and Ingressive for Good (I4G) from the ground up.</p>
+            <h1 class="h1">How did Ingressive for Good start?  </h1>
+            <p class="p2">Ingressive for Good launched July 1, 2020, in the peak of the COVID lockdown. Before this, Ingressive Capital, a venture firm led by Maya Horgan, had a small-scale CSR project that involved connecting student communities with global tech companies like Github and Figma.</p>
+            <p class="p3">We also randomly paid for students’ school fees and bought them laptops. After a while, we paused our approach and interviewed some of our beneficiaries and tech stakeholders. This interview revealed that in addition to getting training and tools, people wanted jobs too. </p>
+            <p class="p1">On Ingressive Capital’s side, they realised that finding the right talent is one of the biggest challenges startups face. This is why we thought of creating Ingressive for Good, a nonprofit dedicated to helping young Africans increase their earning power by developing tech skills and landing jobs. </p>
+            <h1 class="h1">Since Ingressive for Good was an off-shoot of Ingressive Capital, you must have had enough resources to kickstart operations, correct? </h1>
+            <p class="hp">Years ago, I met Maya Horgan, the founder of Ingressive Capital, while I and my partner were running Startup Grind Lagos. We invited her to speak at our monthly event, and we connected from there. She loved my work, followed me on social media and we got acquainted. One time, she tried getting me to run communications at Ingressive Capital, but I declined because I had other commitments. <br><br>
+            But when she told me about Ingressive for Good in 2020, I was excited to join her and Sean Burrowes as a founding member. I’m great at being creative and analytical, so this came in handy when Ingressive for Good began operations. I took ownership of my communications role and got involved in important conversations like I was a co-founder. <br><br>    
+            One time, we were at a donor meeting, and I answered most of the questions the donors threw at us. Right after that call, Maya and Sean invited me to be a co-founder. According to them, I was already handling the nonprofit like it was mine. So why not? </p>
+            <h1 class="hp">Given how Disha and I4G weren’t exactly profitable when you first joined them, did stopping your agency affect your finances?</h1>
+            <p>Not at all. I had saved and invested enough money to sustain me for years while running my agency, and I had digital content raking in passive income. I also occasionally freelanced as a branding consultant. Overall, I had sufficient funds to live comfortably. </p>
+        </section>
+        <section class="main-section1 main-blo-con2">
+            <div class="main-blo-con2a">
+                <img src="img/img/Rectangle1276.png" alt="Blog" width="300px" height="209px">
+                <span class="main-blo-con2b">
+                    <h3>Category</h3>
+                    <p>November 22, 2021</p>
+                </span>
+                <a href="404.html"><h1>Pitch termsheet backing validation focus release.</h1></a>
+            </div>
+            <div class="main-blo-con2a">
+                <img src="img/img/Rectangle1277.png" alt="Blog" width="300px" height="209px">
+                <span class="main-blo-con2b">
+                    <h3>Category</h3>
+                    <p>November 22, 2021</p>
+                </span>
+                <a href="404.html"><h1>Seed round direct mailing non-disclosure agreement graphical user interface rockstar.</h1></a>
+            </div>
+            <div class="main-blo-con2a">
+                <img src="img/img/Rectangle1278.png" alt="Blog" width="300px" height="209px">
+                <span class="main-blo-con2b">
+                    <h3>Category</h3>
+                    <p>November 22, 2021</p>
+                </span>
+                <a href="404.html"><h1>Beta prototype sales iPad gen-z marketing network effects value proposition</h1></a>
+            </div>
+        </section>
+     </main>
+     <footer class="footer-container">
+        <section class="main-section1 footer-section-div">
+            <div class="footer-section-div1">
+                <div class="footer-section-div1a">
+                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                </div>
+                <div class="main-section1 footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                </div>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Company</h1>
+                <a href="blog.html"><p>Blog</p></a>
+                <a href="career.html"><span class="footer-section-div2a">
+                    <p>Careers</p>
+                    <button>Hiring!</button>
+                </span></a>
+                <a href="about.html"><p>About</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Services</h1>
+                <a href="itsupport.html"><p>IT Support</p></a>
+                <a href="consultancy.html"><p>Consultancy</p></a>
+                <a href="network.html"><p>Network Design</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Product</h1>
+                <a href="hotel.html"><p>HotelREP</p></a>
+                <a href="biro.html"><p>BiRO</p></a>
+                <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+        </section>
+        <div class="footer-section-div3">
+            <p>Copyright © 2022. All Rights Reserved.</p>
+        </div>
+     </footer>
+     <script type = "text/javascript" src="js/select.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>

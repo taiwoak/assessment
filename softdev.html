@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Software Development</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/softdev.css">
+     <link rel="icon" href="img/img/image001.png" type="image/icon type">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+ <body id="myBody">
+     <header>
+         <nav class="wrapper">
+            <span class="logo">
+                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+            </span>
+            <ul class="nav-items">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li class="divservices"> <div> <a href="services.html" class="nav-services">Services</a>
+                     <span class="nav-border"></span>
+                    </div> 
+                    <div>
+                        <div class="service-nav">
+                            <a href="itsupport.html" class="service-nav1 servicenav2">
+                                <img src="img/img/MaskGroup.png" alt="IT Support" width="47px" height="47px">
+                                <span>
+                                    <h1>IT Support</h1>
+                                    <p>Software and Hardware Support</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="softdev.html" class="service-nav1 servicenav3">
+                                <img src="img/img/MaskGroup2.png" alt="Software Development" width="47px" height="47px">
+                                <span>
+                                    <h1>Software Development</h1>
+                                    <p>Web, Mobile, and Desktop</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="network.html" class="service-nav1 servicenav4">
+                                <img src="img/img/MaskGroup3.png" alt="Networking" width="43px" height="43px">
+                                <span>
+                                    <h1>Networking</h1>
+                                    <p>Networking and Security Design</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="consultancy.html" class="service-nav1 servicenav5">
+                                <img src="img/img/MaskGroup4.png" alt="Consultancy" width="47px" height="47px">
+                                <span>
+                                    <h1>Consultancy</h1>
+                                    <p>Support, Management, and Procurement</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="products.html" class="nav-products">Products</a></li>
+                <li><a class="nav-company" onclick="myFunction()">Company</a>
+                    <div id="companynav">
+                        <div class="company-nav">
+                            <a href="blog.html" class="company-nav1 companynav2">
+                                <img src="img/img/MaskGroup5.png" alt="Blog" width="48px" height="47px">
+                                <span>
+                                    <h1>Blog</h1>
+                                    <p>Our ideas and experience</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="about.html" class="company-nav1 companynav3">
+                                <img src="img/img/MaskGroup6.png" alt="About Us" width="48px" height="47px">
+                                <span>
+                                    <h1>About Us</h1>
+                                    <p>Be inspired about our uniqueness</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="career.html" class="company-nav1 companynav4">
+                                <img src="img/img/MaskGroup7.png" alt="Career" width="48px" height="47px">
+                                <span>
+                                    <h1>Career</h1>
+                                    <p>Enhance your knowledge with us</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="contact.html" class="company-nav1 companynav5">
+                                <img src="img/img/MaskGroup8.png" alt="" width="48px" height="47px">
+                                <span>
+                                    <h1>Contact Us</h1>
+                                    <p>Get in touch with us</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="nav-btn" onclick="myOpenFunction()">Get a Quote</button>
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>
+                            <span class="modal-form1">
+                                <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            </span>
+                            <div class="custom-select">
+                               <span><img src="img/img/down.png" alt="" id="select-img-down"></span>
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </nav>
+     </header>
+     <main>
+        <section class="main-soft-con1">
+            <div class="main-soft-con-img">
+              <h1>Software Development</h1>
+            </div>
+        </section>
+        <section class="main-section1 main-soft-con2">
+            <div class="main-soft-con2a">
+                <img src="img/img/MaskGroup9.png" alt="Web Development" width="96px" height="96px">
+                <h1>WEB DEVELOPMENT</h1>
+                <p>When creating a website to highlight all your company offers its consumers and clients, the possibilities are unlimited. </p>
+            </div>
+            <div class="main-soft-con2b">
+                <img src="img/img/MaskGroup10.png" alt="Mobile Development" width="96px" height="96px">
+                <h1>MOBILE DEVELOPMENT</h1>
+                <p>Creating a mobile app or mobile web page for your product, service, or concept will require careful thought on an individual basis.</p>
+            </div>
+            <div class="main-soft-con2c">
+                <img src="img/img/MaskGroup11.png" alt="Desktop Development" width="96px" height="96px">
+                <h1>DESKTOP DEVELOPMENT</h1>
+                <p>It will be important to carefully analyze each individual situation before developing a desktop software for your good, service, or concept. </p>
+            </div>
+        </section>
+        <section class="main-section1 main-soft-con3">
+            <div class="main-soft-con2a">
+                <img src="img/img/MaskGroup12.png" alt="Quality Assurance" width="96px" height="96px">
+                <h1>QUALITY ASSURANCE</h1>
+                <p>Before making your software or app available to the public, a lot must be done to ensure its proper operation. </p>
+            </div>
+            <div class="main-soft-con2b">
+                <img src="img/img/MaskGroup13.png" alt="UI/UX" width="96px" height="96px">
+                <h1>UI / UX</h1>
+                <p>We specialize in assisting businesses with creating new visions or starting a makeover of an existing vision. </p>
+            </div>
+            <div class="main-soft-con2c">
+                <img src="img/img/MaskGroup14.png" alt="Customized Solutions" width="96px" height="96px">
+                <h1>CUSTOMIZED SOLUTIONS</h1>
+                <p>We develop software with long-term commercial value, adapted to your specific business operations and adaptable to future requirements. </p>
+            </div>
+        </section>
+        <section class="main-section1 main-soft-con4">
+            <div class="main-soft-con4a">
+                <h1>HOW WE DELIVER SOFTWARE AND PRODUCTS</h1>
+                <p>Prior to beginning development, we first plan with our client. After that, we brainstorm and share ideas with them. Of course, as a top software development firm, we don't create a product and then abandon our clients' businesses. We want to be linked with outstanding goods. <br><br>
+                We take delivery times seriously because they are so important. We respect both our own time and that of our clients. For these reasons, we make sure to create a timeline following all of our planning. </p>
+            </div>
+            <div>
+                <h1>PROJECT MANAGEMENT</h1>
+                <p>It will need a top-notch team of professionals to plan, strategize, control, execute, start, and finish the duties at hand if you want your project to proceed without hiccups and to its successful conclusion. Your vision will be effectively captured by us, and it will be executed perfectly. <br><br>
+                We will carefully evaluate the design, development, schedule, scope, and budget when managing your project to make sure your objectives are ultimately achieved.
+                Most importantly, we'll keep you informed every step of the way so you always know how your project is progressing. </p>
+            </div>
+        </section>
+        <section class="main-soft-con5">
+            <h1>Why You Need Our Service</h1>
+            <p>Some of our clients say we are the best at what we do but all we did is give it our best, It's simple Your Business + Our Brains = Excellent Result. Our world class engineers got you covered.</p>
+        </section>
+        <section class="main-section1 main-soft-con6">
+            <div class="main-soft-con6a">
+                <img src="img/img/MaskGroup15.png" alt="User Experience" width="72px" height="72px">
+                <h1>User Experience and Friendliness</h1>
+                <p>software that can entice people and make it simple for them to navigate</p>
+            </div>
+            <div class="main-soft-con6b">
+                <img src="img/img/MaskGroup16.png" alt="Fast & Responsive" width="72px" height="72px">
+                <h1>Fast and Responsive</h1>
+                <p>Smartphones, iOS, Android, and tablets. <br> All screens can be used with our web solutions. </p>
+            </div>
+            <div class="main-soft-con6c">
+                <img src="img/img/MaskGroup17.png" alt="Technology Stack" width="72px" height="72px">
+                <h1>World-Class Technology Stack</h1>
+                <p>Python, PHP, JavaScript, C#, Go, and Java, MongoDB,  MySQL, and React Native. Our team is very skilled. </p>
+            </div>
+        </section>
+        <section class="main-section1 main-soft-con7">
+            <div class="main-soft-con7a">
+                <img src="img/img/MaskGroup18.png" alt="Training & Tutorials" width="72px" height="72px">
+                <h1>Training & Tutorials</h1>
+                <p>Our team gradually gives your staff and IT specialists management of your own solutions, so you only need us in exceptional circumstances. </p>
+            </div>
+            <div class="main-soft-con7b">
+                <img src="img/img/MaskGroup19.png" alt="Mobile Application" width="72px" height="72px">
+                <h1>Mobile Application </h1>
+                <p>Mobile software and applications from Apple, including iOS and Android, are designed to scale and work well on devices with lower specifications. </p>
+            </div>
+            <div class="main-soft-con7c">
+                <img src="img/img/MaskGroup20.png" alt="Safety and Security First" width="72px" height="72px">
+                <h1>Safety and Security First</h1>
+                <p>Security for servers, code security, hosting, and Git/version control systems. We cannot afford to leave behind any unneeded tracks. </p>
+            </div>
+        </section>
+     </main>
+     <footer class="footer-container">
+        <section class="main-section1 footer-section-div">
+            <div class="footer-section-div1">
+                <div class="footer-section-div1a">
+                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                </div>
+                <div class="main-section1 footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                </div>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Company</h1>
+                <a href="blog.html"><p>Blog</p></a>
+                <a href="career.html"><span class="footer-section-div2a">
+                    <p>Careers</p>
+                    <button>Hiring!</button>
+                </span></a>
+                <a href="about.html"><p>About</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Services</h1>
+                <a href="itsupport.html"><p>IT Support</p></a>
+                <a href="consultancy.html"><p>Consultancy</p></a>
+                <a href="network.html"><p>Network Design</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Product</h1>
+                <a href="hotel.html"><p>HotelREP</p></a>
+                <a href="biro.html"><p>BiRO</p></a>
+                <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+        </section>
+        <div class="footer-section-div3">
+            <p>Copyright © 2022. All Rights Reserved.</p>
+        </div>
+     </footer>
+     <script type = "text/javascript" src="js/select.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>

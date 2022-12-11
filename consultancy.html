@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Consultancy</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/consultancy.css">
+     <link rel="icon" href="img/img/image001.png" type="image/icon type">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+ <body id="myBody">
+     <header>
+         <nav class="wrapper">
+            <span class="logo">
+                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+            </span>
+            <ul class="nav-items">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li class="divservices"> <div> <a href="services.html" class="nav-services">Services</a>
+                     <span class="nav-border"></span>
+                    </div> 
+                    <div>
+                        <div class="service-nav">
+                            <a href="itsupport.html" class="service-nav1 servicenav2">
+                                <img src="img/img/MaskGroup.png" alt="IT Support" width="47px" height="47px">
+                                <span>
+                                    <h1>IT Support</h1>
+                                    <p>Software and Hardware Support</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="softdev.html" class="service-nav1 servicenav3">
+                                <img src="img/img/MaskGroup2.png" alt="Software Development" width="47px" height="47px">
+                                <span>
+                                    <h1>Software Development</h1>
+                                    <p>Web, Mobile, and Desktop</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="network.html" class="service-nav1 servicenav4">
+                                <img src="img/img/MaskGroup3.png" alt="Networking" width="43px" height="43px">
+                                <span>
+                                    <h1>Networking</h1>
+                                    <p>Networking and Security Design</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="consultancy.html" class="service-nav1 servicenav5">
+                                <img src="img/img/MaskGroup4.png" alt="Consultancy" width="47px" height="47px">
+                                <span>
+                                    <h1>Consultancy</h1>
+                                    <p>Support, Management, and Procurement</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="products.html" class="nav-products">Products</a></li>
+                <li><a class="nav-company" onclick="myFunction()">Company</a>
+                    <div id="companynav">
+                        <div class="company-nav">
+                            <a href="blog.html" class="company-nav1 companynav2">
+                                <img src="img/img/MaskGroup5.png" alt="Blog" width="48px" height="47px">
+                                <span>
+                                    <h1>Blog</h1>
+                                    <p>Our ideas and experience</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="about.html" class="company-nav1 companynav3">
+                                <img src="img/img/MaskGroup6.png" alt="About Us" width="48px" height="47px">
+                                <span>
+                                    <h1>About Us</h1>
+                                    <p>Be inspired about our uniqueness</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="career.html" class="company-nav1 companynav4">
+                                <img src="img/img/MaskGroup7.png" alt="Career" width="48px" height="47px">
+                                <span>
+                                    <h1>Career</h1>
+                                    <p>Enhance your knowledge with us</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="contact.html" class="company-nav1 companynav5">
+                                <img src="img/img/MaskGroup8.png" alt="" width="48px" height="47px">
+                                <span>
+                                    <h1>Contact Us</h1>
+                                    <p>Get in touch with us</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="nav-btn" onclick="myOpenFunction()">Get a Quote</button>
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>
+                            <span class="modal-form1">
+                                <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            </span>
+                            <div class="custom-select">
+                               <span><img src="img/img/down.png" alt="" id="select-img-down"></span>
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </nav>
+     </header>
+     <main>
+        <section class="main-section1 main-cons-con1">
+            <div>
+                <img src="img/img/Group156.png" alt="Three people consulting" width="570px" height="500px">
+            </div>
+            <div>
+                <h1>Consultancy</h1>
+                <p>From pre-sales help to "go-live" events, INTELLITECH offers implementation solutions for our clients. These solutions are built on tried-and-true implementation processes that have been refined over time to suit new technological advancements and changing market-driven business needs. <br><br>
+                Our multidisciplinary implementation team is made up of devoted experts who have worked as project managers, business analysts, developers, technicians, and trainers in their respective industries.
+                We provide the following implementation support services, among others.</p>
+            </div>
+        </section>
+        <section class="main-section1 main-cons-con2">
+            <p>Our employees are chosen for their quality, shared values, and dedication to providing excellent customer service.
+            Our first objective remains providing excellent customer service. <br><br>    
+            We have assisted numerous businesses in achieving their objectives while staying on budget. </p>
+            <img src="img/img/image27.png" alt="A Lady smiling" width="452px" height="469px">
+        </section>
+        <section class="main-cons-con3">
+            <p>Our specialists share a vision and are chosen for their excellence, like-mindedness, and dedication to customer service. Our core objective remains providing excellent client service. </p>
+        </section>
+        <section class="main-section1 main-cons-con4">
+            <div class="main-cons-con4a">
+                <h2>IT Application Specification</h2>
+                <p>When you can't find what you're searching for, chat to us before resorting to a bespoke solution to learn how to reduce risks and get the most out of a new project.</p>
+                <ul>
+                    <li>Requirement Gathering</li>
+                    <li>Application Design</li>
+                    <li>Website Design</li>
+                    <li>Content Management Systems</li>
+                </ul>
+            </div>
+            <div class="main-cons-con4b">
+                <h2>IT Management and Support</h2>
+                <p>What are your options: handle it yourself or hire someone to do it for you? <br>
+                Assuring that the appropriate approach is in place to meet your organization's goals.</p>
+                <ul>
+                    <li>Management and Operation of IT systems</li>
+                    <li>IT Strategy - Development and review</li>
+                    <li>Infrastructure Strategy - Development and review</li>
+                    <li>Business Continuity Planning</li>
+                </ul>
+            </div>
+            <div class="main-cons-con4c">
+                <h2>IT Procurement</h2>
+                <p>Choosing the correct provider is a minefield. <br>
+                Have you asked the correct questions, or are you comparing apples to oranges? <br>
+                We can participate as much or as little as necessary. </p>
+                <ul>
+                    <li>Requirements Gathering</li>
+                    <li>Product selection</li>
+                    <li>Procurement Management</li>
+                    <li>Client-side representation</li>
+                </ul>
+            </div>
+        </section>
+     </main>
+     <footer class="footer-container">
+        <section class="main-section1 footer-section-div">
+            <div class="footer-section-div1">
+                <div class="footer-section-div1a">
+                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                </div>
+                <div class="main-section1 footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                </div>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Company</h1>
+                <a href="blog.html"><p>Blog</p></a>
+                <a href="career.html"><span class="footer-section-div2a">
+                    <p>Careers</p>
+                    <button>Hiring!</button>
+                </span></a>
+                <a href="about.html"><p>About</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Services</h1>
+                <a href="itsupport.html"><p>IT Support</p></a>
+                <a href="consultancy.html"><p>Consultancy</p></a>
+                <a href="network.html"><p>Network Design</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Product</h1>
+                <a href="hotel.html"><p>HotelREP</p></a>
+                <a href="biro.html"><p>BiRO</p></a>
+                <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+        </section>
+        <div class="footer-section-div3">
+            <p>Copyright © 2022. All Rights Reserved.</p>
+        </div>
+     </footer>
+     <script type = "text/javascript" src="js/select.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>

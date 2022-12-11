@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>StoreREP</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/store.css">
+     <link rel="icon" href="img/img/image001.png" type="image/icon type">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+ <body id="myBody">
+     <header>
+         <nav class="wrapper">
+            <span class="logo">
+                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+            </span>
+            <ul class="nav-items">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li class="divservices"><a href="services.html" class="nav-services">Services</a>
+                    <div>
+                        <div class="service-nav">
+                            <a href="itsupport.html" class="service-nav1 servicenav2">
+                                <img src="img/img/MaskGroup.png" alt="IT Support" width="47px" height="47px">
+                                <span>
+                                    <h1>IT Support</h1>
+                                    <p>Software and Hardware Support</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="softdev.html" class="service-nav1 servicenav3">
+                                <img src="img/img/MaskGroup2.png" alt="Software Development" width="47px" height="47px">
+                                <span>
+                                    <h1>Software Development</h1>
+                                    <p>Web, Mobile, and Desktop</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="network.html" class="service-nav1 servicenav4">
+                                <img src="img/img/MaskGroup3.png" alt="Networking" width="43px" height="43px">
+                                <span>
+                                    <h1>Networking</h1>
+                                    <p>Networking and Security Design</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="consultancy.html" class="service-nav1 servicenav5">
+                                <img src="img/img/MaskGroup4.png" alt="Consultancy" width="47px" height="47px">
+                                <span>
+                                    <h1>Consultancy</h1>
+                                    <p>Support, Management, and Procurement</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><div>
+                    <a href="products.html" class="nav-products">Products</a>
+                    <span class="nav-border"></span>
+                </div></li>
+                <li><a class="nav-company" onclick="myFunction()">Company</a>
+                    <div id="companynav">
+                        <div class="company-nav">
+                            <a href="blog.html" class="company-nav1 companynav2">
+                                <img src="img/img/MaskGroup5.png" alt="Blog" width="48px" height="47px">
+                                <span>
+                                    <h1>Blog</h1>
+                                    <p>Our ideas and experience</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="about.html" class="company-nav1 companynav3">
+                                <img src="img/img/MaskGroup6.png" alt="About Us" width="48px" height="47px">
+                                <span>
+                                    <h1>About Us</h1>
+                                    <p>Be inspired about our uniqueness</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="career.html" class="company-nav1 companynav4">
+                                <img src="img/img/MaskGroup7.png" alt="Career" width="48px" height="47px">
+                                <span>
+                                    <h1>Career</h1>
+                                    <p>Enhance your knowledge with us</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="contact.html" class="company-nav1 companynav5">
+                                <img src="img/img/MaskGroup8.png" alt="" width="48px" height="47px">
+                                <span>
+                                    <h1>Contact Us</h1>
+                                    <p>Get in touch with us</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="nav-btn" onclick="myOpenFunction()">Get a Quote</button>
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>
+                            <span class="modal-form1">
+                                <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            </span>
+                            <div class="custom-select">
+                               <span><img src="img/img/down.png" alt="" id="select-img-down"></span>
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </nav>
+     </header>
+     <main>
+        <section class="main-sto-con-img">
+            <h1>StoreREP</h1>
+            <p>StoreREP is an ERP Inventory Management System. The system is highly functionally robust very user-friendly and effective developed to manage your products and stocks for industry and bulk product dispatch services</p>
+        </section>
+        <section class="main-section1 main-sto-con1">
+            <div class="main-sto-con1a main-sto-img1">
+                <img src="img/img/setup.png" alt="Administration/Setup" width="88px" height="88px">
+                <h1>ADMINISTRATION/SETUP</h1>
+                <ul>
+                    <li>Company Master</li>
+                    <li>Branch Details</li>
+                    <li>User Account Creation</li>
+                    <li>Staff Entry Categories</li>
+                    <li>Registration</li>
+                    <li>POS Work Period</li>
+                </ul>
+            </div>
+            <div class="main-sto-con1a main-sto-img2">
+                <img src="img/img/vendors.png" alt="Vendors Accounts" width="88px" height="88px">
+                <h1>VENDORS ACCOUNTS</h1>
+                <ul>
+                    <li>User creation/Logins</li>
+                    <li>User Privilege Assignment</li>
+                    <li>Customer Account</li>
+                    <li>Employees</li>
+                    <li>Clear Transaction Data</li>
+                    <li>Database Backup</li>
+                </ul>
+            </div>
+            <div class="main-sto-con1a main-sto-img3">
+                <img src="img/img/order.png" alt="Purchase/Order" width="88px" height="88px">
+                <h1>PURCHASE/ORDER</h1>
+                <ul>
+                    <li>Purchase Stock Adjust</li>
+                    <li>Return Purchases</li>
+                    <li>Purchase Orders</li>
+                    <li>Payment Details</li>
+                    <li>Expense Type</li>
+                    <li>Trial Balance</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section1 main-sto-con1">
+            <div class="main-sto-con1a main-sto-img4">
+                <img src="img/img/alarms.png" alt="Alarms/Expiry Alert" width="88px" height="88px">
+                <h1>ALARMS/EXPIRY ALERT</h1>
+                <ul>
+                    <li>Near Expiry Items</li>
+                    <li>Expired Items</li>
+                    <li>Low Stock Alert</li>
+                    <li>Zero Stock Items</li>
+                    <li>Not Sold Items</li>
+                </ul>
+            </div>
+            <div class="main-sto-con1a main-sto-img5">
+                <img src="img/img/report.png" alt="Reports" width="88px" height="88px">
+                <h1>PAYMENT/ RECEIVING/ EXPENSES REPORTS</h1>
+                <ul>
+                    <li>Vendor Ledger Report</li>
+                    <li>Customer Ledger Report</li>
+                    <li>Cashbook Summary/Detailed Report</li>
+                    <li>Expense Voucher Report</li>
+                    <li>Head Wise Expense Voucher Report</li>
+                    <li>Employee Salary Report</li>
+                    <li>Profit and Loss Report</li>
+                </ul>
+            </div>
+            <div class="main-sto-con1a main-sto-img6">
+                <img src="img/img/sales.png" alt="Sales/Payments" width="88px" height="88px">
+                <h1>SALES/PAYMENTS</h1>
+                <ul>
+                    <li>Vendor debit/credit</li>
+                    <li>Customer debit/credit</li>
+                    <li>Cash Entry</li>
+                    <li>Cash in & Cash Out</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-sto-con2">
+            <button onclick="myOpenFunction()">Get a Quote</button>
+        </section>
+     </main>
+     <footer class="footer-container">
+        <section class="main-section1 footer-section-div">
+            <div class="footer-section-div1">
+                <div class="footer-section-div1a">
+                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                </div>
+                <div class="main-section1 footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                </div>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Company</h1>
+                <a href="blog.html"><p>Blog</p></a>
+                <a href="career.html"><span class="footer-section-div2a">
+                    <p>Careers</p>
+                    <button>Hiring!</button>
+                </span></a>
+                <a href="about.html"><p>About</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Services</h1>
+                <a href="itsupport.html"><p>IT Support</p></a>
+                <a href="consultancy.html"><p>Consultancy</p></a>
+                <a href="network.html"><p>Network Design</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Product</h1>
+                <a href="hotel.html"><p>HotelREP</p></a>
+                <a href="biro.html"><p>BiRO</p></a>
+                <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+        </section>
+        <div class="footer-section-div3">
+            <p>Copyright © 2022. All Rights Reserved.</p>
+        </div>
+     </footer>
+     <script type = "text/javascript" src="js/select.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Careers</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/career.css">
+     <link rel="icon" href="img/img/image001.png" type="image/icon type">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+ <body id="myBody">
+     <header>
+         <nav class="wrapper">
+            <span class="logo">
+                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+            </span>
+            <ul class="nav-items">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li class="divservices"><a href="services.html" class="nav-services">Services</a>
+                    <div>
+                        <div class="service-nav">
+                            <a href="itsupport.html" class="service-nav1 servicenav2">
+                                <img src="img/img/MaskGroup.png" alt="IT Support" width="47px" height="47px">
+                                <span>
+                                    <h1>IT Support</h1>
+                                    <p>Software and Hardware Support</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="softdev.html" class="service-nav1 servicenav3">
+                                <img src="img/img/MaskGroup2.png" alt="Software Development" width="47px" height="47px">
+                                <span>
+                                    <h1>Software Development</h1>
+                                    <p>Web, Mobile, and Desktop</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="network.html" class="service-nav1 servicenav4">
+                                <img src="img/img/MaskGroup3.png" alt="Networking" width="43px" height="43px">
+                                <span>
+                                    <h1>Networking</h1>
+                                    <p>Networking and Security Design</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="consultancy.html" class="service-nav1 servicenav5">
+                                <img src="img/img/MaskGroup4.png" alt="Consultancy" width="47px" height="47px">
+                                <span>
+                                    <h1>Consultancy</h1>
+                                    <p>Support, Management, and Procurement</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="products.html" class="nav-products">Products</a></li>
+                <li><div> <a class="nav-company" onclick="myFunction()">Company</a>
+                          <span class="nav-border"></span>
+                    </div>
+                    <div id="companynav">
+                        <div class="company-nav">
+                            <a href="blog.html" class="company-nav1 companynav2">
+                                <img src="img/img/MaskGroup5.png" alt="Blog" width="48px" height="47px">
+                                <span>
+                                    <h1>Blog</h1>
+                                    <p>Our ideas and experience</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="about.html" class="company-nav1 companynav3">
+                                <img src="img/img/MaskGroup6.png" alt="About Us" width="48px" height="47px">
+                                <span>
+                                    <h1>About Us</h1>
+                                    <p>Be inspired about our uniqueness</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="career.html" class="company-nav1 companynav4">
+                                <img src="img/img/MaskGroup7.png" alt="Career" width="48px" height="47px">
+                                <span>
+                                    <h1>Career</h1>
+                                    <p>Enhance your knowledge with us</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="contact.html" class="company-nav1 companynav5">
+                                <img src="img/img/MaskGroup8.png" alt="" width="48px" height="47px">
+                                <span>
+                                    <h1>Contact Us</h1>
+                                    <p>Get in touch with us</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="nav-btn" onclick="myOpenFunction()">Get a Quote</button>
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>
+                            <span class="modal-form1">
+                                <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            </span>
+                            <div class="custom-select">
+                               <span><img src="img/img/down.png" alt="" id="select-img-down"></span>
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </nav>
+     </header>
+     <main>
+        <section class="main-car-con1">
+            <div class="main-car-con-img">
+              <div class="main-car-con1a">
+                <h1>What's your dream Career?</h1>
+                <a href="404.html"><button>Explore Roles</button></a>
+              </div>
+            </div>
+        </section>
+        <section class="main-car-con2">
+            <h3>Benefits & Perks</h3>
+            <h1>Live your best life</h1>
+            <div class="main-section1 main-car-con3">
+                <div class="main-car-con3a">
+                    <h1>Career Development Opportunities</h1>
+                    <p>Innovative projects that result in cutting-edge products. Direct interaction with team members who uphold noble goals and principles. </p>
+                </div>
+                <div class="main-car-con3b">
+                    <h1>Innovation</h1>
+                    <p>We approach everything we do with a beginner's mind, creativity, and constant learning to disrupt and transform it. We make environments where taking risks is safe because we don't mind failing quickly. </p>
+                </div>
+                <div class="main-car-con3c">
+                    <h1>Never Stop Learning</h1>
+                    <p>Our core culture is one of constant and never-ending improvement. We provide you with everything you need to grow at a 3x rate. Learning stimulates growth. </p>
+                </div>
+            </div>
+            <div class="main-section1 main-car-con4">
+                <div class="main-car-con3a">
+                    <h1>Enjoyable Working Atmosphere</h1>
+                    <p>A nurturing and encouraging atmosphere. Individualized care for each specialist. No bureaucracy and a flat organizational structure. </p>
+                </div>
+                <div class="main-car-con3b">
+                    <h1>Competitive Salary</h1>
+                    <p>We regularly review and assess our pay structure to make sure it complies with the norms set by the regional business community. </p>
+                </div>
+                <div class="main-car-con3c">
+                    <h1>Remote Opportunities</h1>
+                    <p>Work from anywhere in the world, including your home or office! You have the choice of taking a work vacation. Choose your next workplace by spinning the globe! </p>
+                </div>
+            </div>
+        </section>
+        <section class="main-car-con5">
+            <h1>Latest Vacancies</h1>
+            <div class="main-car-con5a">
+                <div class="main-car-con5b">
+                    <h1>JOB TITLE</h1>
+                    <h1>LOCATION</h1>
+                    <h1>DEPARTMENT</h1>
+                </div>
+                <div class="main-car-con5c">
+                    <p class="p1">Programmer</p>
+                    <p class="p2">Remote</p>
+                    <p class="p3">Software Development</p>
+                    <a href="404.html"><span class="main-section1 main-car-con5d">
+                        <p>Find out more</p>
+                        <img src="img/img/bi_arrow-right-short.png" alt="arrow" width="20px" height="20px">
+                    </span></a>
+                </div>
+                <div class="main-car-con5c">
+                    <p class="p1">Programmer</p>
+                    <p class="p2">Remote</p>
+                    <p class="p3">Software Development</p>
+                    <a href="404.html"><span class="main-section1 main-car-con5d">
+                        <p>Find out more</p>
+                        <img src="img/img/bi_arrow-right-short.png" alt="arrow" width="20px" height="20px">
+                    </span></a>
+                </div>
+                <div class="main-car-con5c">
+                    <p class="p1">Programmer</p>
+                    <p class="p2">Remote</p>
+                    <p class="p3">Software Development</p>
+                    <a href="404.html"><span class="main-section1 main-car-con5d">
+                        <p>Find out more</p>
+                        <img src="img/img/bi_arrow-right-short.png" alt="arrow" width="20px" height="20px">
+                    </span></a>
+                </div>
+                <div class="main-car-con5c">
+                    <p class="p1">Programmer</p>
+                    <p class="p2">Remote</p>
+                    <p class="p3">Software Development</p>
+                    <a href="404.html"><span class="main-section1 main-car-con5d">
+                        <p>Find out more</p>
+                        <img src="img/img/bi_arrow-right-short.png" alt="arrow" width="20px" height="20px">
+                    </span></a>
+                </div>
+                <div class="main-car-con5c">
+                    <p class="p1">Programmer</p>
+                    <p class="p2">Remote</p>
+                    <p class="p3">Software Development</p>
+                    <a href="404.html"><span class="main-section1 main-car-con5d">
+                        <p>Find out more</p>
+                        <img src="img/img/bi_arrow-right-short.png" alt="arrow" width="20px" height="20px">
+                    </span></a>
+                </div>
+                <div class="main-car-con5c">
+                    <p class="p1">Programmer</p>
+                    <p class="p2">Remote</p>
+                    <p class="p3">Software Development</p>
+                    <a href="404.html"><span class="main-section1 main-car-con5d">
+                        <p>Find out more</p>
+                        <img src="img/img/bi_arrow-right-short.png" alt="arrow" width="20px" height="20px">
+                    </span></a>
+                </div>
+                <div class="main-car-con5c">
+                    <p class="p1">Programmer</p>
+                    <p class="p2">Remote</p>
+                    <p class="p3">Software Development</p>
+                    <a href="404.html"><span class="main-section1 main-car-con5d">
+                        <p>Find out more</p>
+                        <img src="img/img/bi_arrow-right-short.png" alt="arrow" width="20px" height="20px">
+                    </span></a>
+                </div>
+            </div>
+        </section>
+     </main>
+     <footer class="footer-container">
+        <section class="main-section1 footer-section-div">
+            <div class="footer-section-div1">
+                <div class="footer-section-div1a">
+                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                </div>
+                <div class="main-section1 footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                </div>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Company</h1>
+                <a href="blog.html"><p>Blog</p></a>
+                <a href="career.html"><span class="footer-section-div2a">
+                    <p>Careers</p>
+                    <button>Hiring!</button>
+                </span></a>
+                <a href="about.html"><p>About</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Services</h1>
+                <a href="itsupport.html"><p>IT Support</p></a>
+                <a href="consultancy.html"><p>Consultancy</p></a>
+                <a href="network.html"><p>Network Design</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Product</h1>
+                <a href="hotel.html"><p>HotelREP</p></a>
+                <a href="biro.html"><p>BiRO</p></a>
+                <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+        </section>
+        <div class="footer-section-div3">
+            <p>Copyright © 2022. All Rights Reserved.</p>
+        </div>
+     </footer>
+     <script type = "text/javascript" src="js/select.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>BiRo</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/biro.css">
+     <link rel="icon" href="img/img/image001.png" type="image/icon type">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+ <body id="myBody">
+     <header>
+         <nav class="wrapper">
+            <span class="logo">
+                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+            </span>
+            <ul class="nav-items">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li class="divservices"><a href="services.html" class="nav-services">Services</a>
+                    <div>
+                        <div class="service-nav">
+                            <a href="itsupport.html" class="service-nav1 servicenav2">
+                                <img src="img/img/MaskGroup.png" alt="IT Support" width="47px" height="47px">
+                                <span>
+                                    <h1>IT Support</h1>
+                                    <p>Software and Hardware Support</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="softdev.html" class="service-nav1 servicenav3">
+                                <img src="img/img/MaskGroup2.png" alt="Software Development" width="47px" height="47px">
+                                <span>
+                                    <h1>Software Development</h1>
+                                    <p>Web, Mobile, and Desktop</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="network.html" class="service-nav1 servicenav4">
+                                <img src="img/img/MaskGroup3.png" alt="Networking" width="43px" height="43px">
+                                <span>
+                                    <h1>Networking</h1>
+                                    <p>Networking and Security Design</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="consultancy.html" class="service-nav1 servicenav5">
+                                <img src="img/img/MaskGroup4.png" alt="Consultancy" width="47px" height="47px">
+                                <span>
+                                    <h1>Consultancy</h1>
+                                    <p>Support, Management, and Procurement</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><div>
+                    <a href="products.html" class="nav-products">Products</a>
+                    <span class="nav-border"></span>
+                </div></li>
+                <li><a class="nav-company" onclick="myFunction()">Company</a>
+                    <div id="companynav">
+                        <div class="company-nav">
+                            <a href="blog.html" class="company-nav1 companynav2">
+                                <img src="img/img/MaskGroup5.png" alt="Blog" width="48px" height="47px">
+                                <span>
+                                    <h1>Blog</h1>
+                                    <p>Our ideas and experience</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="about.html" class="company-nav1 companynav3">
+                                <img src="img/img/MaskGroup6.png" alt="About Us" width="48px" height="47px">
+                                <span>
+                                    <h1>About Us</h1>
+                                    <p>Be inspired about our uniqueness</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="career.html" class="company-nav1 companynav4">
+                                <img src="img/img/MaskGroup7.png" alt="Career" width="48px" height="47px">
+                                <span>
+                                    <h1>Career</h1>
+                                    <p>Enhance your knowledge with us</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="contact.html" class="company-nav1 companynav5">
+                                <img src="img/img/MaskGroup8.png" alt="" width="48px" height="47px">
+                                <span>
+                                    <h1>Contact Us</h1>
+                                    <p>Get in touch with us</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="nav-btn" onclick="myOpenFunction()">Get a Quote</button>
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>
+                            <span class="modal-form1">
+                                <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            </span>
+                            <div class="custom-select">
+                               <span><img src="img/img/down.png" alt="" id="select-img-down"></span>
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </nav>
+     </header>
+     <main>
+        <section class="main-bir-con-img">
+            <h1>BiRo</h1>
+            <p>BiRo is an ERP school management system specifically to reduce stress and improve the effectiveness of the administrative process in schools. It handles information about both students and teachers, records of student evaluations and exams, and class and lecture schedules. </p>
+        </section>
+        <section class="main-section1 main-bir-con1">
+            <div class="main-bir-con1a">
+                <img src="img/img/website.png" alt="Website Features" width="88px" height="88px">
+                <h1>WEBSITE FEATURES</h1>
+                <ul>
+                    <li>School Event Update</li>
+                    <li>School Photo Gallery</li>
+                    <li>School Noticeboard</li>
+                    <li>Teacher Portfolio</li>
+                    <li>Mobile Accessibility</li>
+                </ul>
+            </div>
+            <div class="main-bir-con1a">
+                <img src="img/img/finance.png" alt="Financial Features" width="88px" height="88px">
+                <h1>FINANCIAL FEATURES</h1>
+                <ul>
+                    <li>Student Fee Invoice Creation</li>
+                    <li>Bulk Invoice Creation</li>
+                    <li>Student Payment Report</li>
+                    <li>Invoice Printing Option</li>
+                    <li>Offline Cash Fee Payment</li>
+                    <li>Online Payment</li>
+                </ul>
+            </div>
+            <div class="main-bir-con1c">
+                <img src="img/img/itsupport.png" alt="IT Support" width="88px" height="88px">
+                <h1>IT SUPPORT</h1>
+                <ul>
+                    <li>IT Support Services</li>
+                    <li>SSL Data Encryption</li>
+                    <li>Storage Capacity Manager</li>
+                    <li>Data Security and Backup</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section1 main-bir-con2">
+            <div class="main-bir-con2a">
+                <img src="img/img/setup.png" alt="Administrative Features" width="88px" height="88px">
+                <h1>ADMINISTRATIVE FEATURES</h1>
+                <ul>
+                    <li>Library Manager</li>
+                    <li>Student Dormitory Manager</li>
+                    <li>Student Transport Manager</li>
+                    <li>Parent User Panel</li>
+                    <li>Noticeboard Manager</li>
+                    <li>News Info Via SMS</li>
+                    <li>Messaging by Users</li>
+                    <li>Session Chooser for Analysis</li>
+                    <li>Admin User Panel</li>
+                    <li>Staff User Panel</li>
+                    <li>Student User Panel</li>
+                </ul>
+            </div>
+            <div class="main-bir-con2b">
+                <img src="img/img/academic.png" alt="Academic Features" width="88px" height="88px">
+                <h1>ACADEMIC FEATURES</h1>
+                <div class="main-section1 main-bir-con3">
+                    <ul class="main-bir-con3a">
+                        <li>Intuitive Admission Form</li>
+                        <li>Bulk Student Account Creation</li>
+                        <li>Student Profile Info Viewer</li>
+                        <li>Student Academic Report</li>
+                        <li>Student ID Card Generator</li>
+                        <li>Student Yearly Promotion</li>
+                        <li>Session Wise Data Manager</li>
+                        <li>Class and Section Manager</li>
+                        <li>Academic Syllabus Manager</li>
+                        <li>Class Routine Scheduler</li>
+                    </ul>
+                    <ul class="main-bir-con3a">
+                        <li>Student Daily Attendance</li>
+                        <li>Printable Attendance Report</li>
+                        <li>Study Document Distribution</li>
+                        <li>Exams Mark Sent by SMS</li>
+                        <li>Question Printing for Teachers</li>
+                        <li>Student Grade/Mark Manager</li>
+                        <li>Online Exam Manager</li>
+                        <li>Online Report Manager</li>
+                        <li>Class Wise Exam Mark Report</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main-bir-con4">
+            <button onclick="myOpenFunction()">Get a Quote</button>
+        </section>
+     </main>
+     <footer class="footer-container">
+        <section class="main-section1 footer-section-div">
+            <div class="footer-section-div1">
+                <div class="footer-section-div1a">
+                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                </div>
+                <div class="main-section1 footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                </div>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Company</h1>
+                <a href="blog.html"><p>Blog</p></a>
+                <a href="career.html"><span class="footer-section-div2a">
+                    <p>Careers</p>
+                    <button>Hiring!</button>
+                </span></a>
+                <a href="about.html"><p>About</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Services</h1>
+                <a href="itsupport.html"><p>IT Support</p></a>
+                <a href="consultancy.html"><p>Consultancy</p></a>
+                <a href="network.html"><p>Network Design</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Product</h1>
+                <a href="hotel.html"><p>HotelREP</p></a>
+                <a href="biro.html"><p>BiRO</p></a>
+                <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+        </section>
+        <div class="footer-section-div3">
+            <p>Copyright © 2022. All Rights Reserved.</p>
+        </div>
+     </footer>
+     <script type = "text/javascript" src="js/select.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>

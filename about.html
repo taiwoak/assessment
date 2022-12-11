@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>About</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/about.css">
+     <link rel="icon" href="img/img/image001.png" type="image/icon type">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ </head>
+ <body id="myBody">
+     <header>
+         <nav class="wrapper">
+            <span class="logo">
+                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+            </span>
+            <ul class="nav-items">
+                <li><a href="index.html" class="nav-home">Home</a></li>
+                <li class="divservices"><a href="services.html" class="nav-services">Services</a>
+                    <div>
+                        <div class="service-nav">
+                            <a href="itsupport.html" class="service-nav1 servicenav2">
+                                <img src="img/img/MaskGroup.png" alt="IT Support" width="47px" height="47px">
+                                <span>
+                                    <h1>IT Support</h1>
+                                    <p>Software and Hardware Support</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="softdev.html" class="service-nav1 servicenav3">
+                                <img src="img/img/MaskGroup2.png" alt="Software Development" width="47px" height="47px">
+                                <span>
+                                    <h1>Software Development</h1>
+                                    <p>Web, Mobile, and Desktop</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="network.html" class="service-nav1 servicenav4">
+                                <img src="img/img/MaskGroup3.png" alt="Networking" width="43px" height="43px">
+                                <span>
+                                    <h1>Networking</h1>
+                                    <p>Networking and Security Design</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="consultancy.html" class="service-nav1 servicenav5">
+                                <img src="img/img/MaskGroup4.png" alt="Consultancy" width="47px" height="47px">
+                                <span>
+                                    <h1>Consultancy</h1>
+                                    <p>Support, Management, and Procurement</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="products.html" class="nav-products">Products</a></li>
+                <li><div> <a class="nav-company" onclick="myFunction()">Company</a>
+                          <span class="nav-border"></span>
+                    </div>
+                    <div id="companynav">
+                        <div class="company-nav">
+                            <a href="blog.html" class="company-nav1 companynav2">
+                                <img src="img/img/MaskGroup5.png" alt="Blog" width="48px" height="47px">
+                                <span>
+                                    <h1>Blog</h1>
+                                    <p>Our ideas and experience</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="about.html" class="company-nav1 companynav3">
+                                <img src="img/img/MaskGroup6.png" alt="About Us" width="48px" height="47px">
+                                <span>
+                                    <h1>About Us</h1>
+                                    <p>Be inspired about our uniqueness</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="career.html" class="company-nav1 companynav4">
+                                <img src="img/img/MaskGroup7.png" alt="Career" width="48px" height="47px">
+                                <span>
+                                    <h1>Career</h1>
+                                    <p>Enhance your knowledge with us</p>
+                                </span>
+                            </a>
+                            <span class="service-border"></span>
+                            <a href="contact.html" class="company-nav1 companynav5">
+                                <img src="img/img/MaskGroup8.png" alt="" width="48px" height="47px">
+                                <span>
+                                    <h1>Contact Us</h1>
+                                    <p>Get in touch with us</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="nav-btn" onclick="myOpenFunction()">Get a Quote</button>
+            <div id="myModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>
+                            <span class="modal-form1">
+                                <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            </span>
+                            <div class="custom-select">
+                               <span><img src="img/img/down.png" alt="" id="select-img-down"></span>
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </nav>
+     </header>
+     <main>
+        <section class="main-abo-con1">
+            <h1>The heart and soul of INTELLITECH is <br>
+            creativity and innovation.</h1>
+            <div class="ellipse"></div>
+            <div class="main-section1 main-abo-con1a">
+                <div>
+                    <img src="img/img/Group157.png" alt="About" width="547px" height="445px">
+                </div>
+                <div class="main-abo-con1b">
+                    <h1>About Us</h1>
+                    <p>On January 5th, 2015, Intellitech Technologies Limited was created with the slogan 'Configure, Create, and Innovate' and completely incorporated the business with the Nigeria Corporate Affairs Commission (CAC) with registration number RC -1436484. What began as a voyage to make a distinctive difference in the everyday corporate world has evolved into a successful firm with the abilities and ambition to dream big and achieve it. <br><br>
+                    With a strength of employees, INTELLITECH is not just only a firm, but a family of happy content experts that offer their best every day without losing their spark. <br><br>    
+                    INTELLITECH believes that every firm need excellent partners, thus we carefully choose ours. We share the same sentiments regarding the value of our clients, as well as our carefully selected partners and third-party suppliers. </p>
+                </div>
+            </div>
+        </section>
+        <section class="main-container5">
+            <div>
+                <h3>Why Choose Us?</h3>
+                <h1>We assist you in obtaining the best IT solutions for your organization.</h1>
+            </div>
+            <div class="main-section1 section5-div1">
+                <div class="section5-div2 section5-div2a">
+                    <img src="img/img/Group29.png" alt="Passion" width="89px" height="89px">
+                    <h2>Passion</h2>
+                    <p>We are devoted to and passionate about our customers.</p>
+                </div>
+                <div class="section5-div2 section5-div2b">
+                    <img src="img/img/Group25.png" alt="Innovation" width="89px" height="89px">
+                    <h2>Innovation</h2>
+                    <p>We are innovators dedicated to tackling today's problems tomorrow.</p>
+                </div>
+                <div class="section5-div2 section5-div2c">
+                    <img src="img/img/Group27.png" alt="Integrity" width="89px" height="89px">
+                    <h2>Integrity</h2>
+                    <p>We communicate with respect, integrity, courage and candour.</p>
+                </div>
+                <div class="section5-div2 section5-div2d">
+                    <img src="img/img/Group26.png" alt="Quality" width="89px" height="89px">
+                    <h2>Quality</h2>
+                    <p>We provide top-notch solutions by providing outstanding implementation and support.</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-abo-con2">
+            <div class="main-abo-con2a">
+                <img src="img/img/Group69.png" alt="Goal" width="70px" height="70px">
+                <h1>Our Goal</h1>
+                <p>IT is ever-changing. As a result of that our mission is to remain relevant in the field of IT by conducting continual adaptive research and innovation. </p>
+            </div>
+            <div class="main-abo-con2b">
+                <img src="img/img/Group70.png" alt="Vision" width="70px" height="70px">
+                <h1>Our Vision</h1>
+                <p>It is without a doubt our unwavering aim to be the leading technological company in West Africa, with cutting-edge technology of global level. <br>
+                To be the leading IT consulting firm for institutions, enterprises, oil corporations, and the government.
+                Our ultimate destination is simply worldwide! </p>
+            </div>
+            <div class="main-abo-con2a">
+                <img src="img/img/Group71.png" alt="Mission" width="70px" height="70px">
+                <h1>Our Mission</h1>
+                <p>To bring IT to the average man in a flexible and adaptive manner by bringing novel technology that can be used by both the young and the old, without sacrificing efficiency or quality. </p>
+            </div>
+            <div class="main-abo-con2b">
+                <img src="img/img/Group72.png" alt="Values" width="70px" height="70px">
+                <h1>Core Values</h1>
+                <p>We are committed to providing exceptional service and the best technological solutions. <br>
+                Our goal is to continuously deliver on time every day in order to gain our clients' confidence and respect. </p>
+            </div>
+        </section>
+        <div class="main-abo-con3">
+            <h1>Our Partners</h1>
+        </div>
+        <section class="main-section1 main-container2">
+            <div>
+                <img src="img/partner/newlogo.svg" alt="Mikrotik" width="215px" height="37px">
+            </div>
+            <div>
+                <img src="img/partner/RE1Mu3b.png" alt="Microsoft" width="151px" height="32px">
+            </div>
+            <div>
+                <img src="img/partner/vmware-logo-grey.svg" alt="Vmware" width="140px" height="22px">
+            </div>
+            <div>
+                <img src="img/partner/new_logo.png" alt="CPN" width="50px" height="82px">
+            </div>
+            <div>
+                <img src="img/partner/Google_2015_logo.svg.png" alt="Google" width="136px" height="46px">
+            </div>
+            <div>
+                <img src="img/partner/cropped-cropped-NITDA-Logo-new-03.png" alt="NITDA" width="138px" height="40px">
+            </div>
+        </section>
+     </main>
+     <footer class="footer-container">
+        <section class="main-section1 footer-section-div">
+            <div class="footer-section-div1">
+                <div class="footer-section-div1a">
+                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                </div>
+                <div class="main-section1 footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                </div>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Company</h1>
+                <a href="blog.html"><p>Blog</p></a>
+                <a href="career.html"><span class="footer-section-div2a">
+                    <p>Careers</p>
+                    <button>Hiring!</button>
+                </span></a>
+                <a href="about.html"><p>About</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Services</h1>
+                <a href="itsupport.html"><p>IT Support</p></a>
+                <a href="consultancy.html"><p>Consultancy</p></a>
+                <a href="network.html"><p>Network Design</p></a>
+            </div>
+            <div class="footer-section-div2">
+                <h1>Product</h1>
+                <a href="hotel.html"><p>HotelREP</p></a>
+                <a href="biro.html"><p>BiRO</p></a>
+                <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+        </section>
+        <div class="footer-section-div3">
+            <p>Copyright © 2022. All Rights Reserved.</p>
+        </div>
+     </footer>
+     <script type = "text/javascript" src="js/select.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>
