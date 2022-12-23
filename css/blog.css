@@ -480,7 +480,65 @@ header nav ul li a {
     cursor: pointer;
 }
 
+/* Button States*/
 
+button:hover {
+    background: #2D9CDB;
+    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+}
+
+button:active {
+    border: 2px solid #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+    background: #FFFFFF;
+    color: #0077B5;
+}
+
+#submit:hover {
+    background: #2D9CDB;
+    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+}
+
+#submit:active {
+    border: 2px solid #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+    background: #FFFFFF;
+    color: #0077B5;
+}
+
+
+/* OnScroll */
+
+.on-scroll {
+    height: 90px;
+    border-bottom: 10px solid #0077B5;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+.on-scroll button {
+    border: 2px solid #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+    background: #FFFFFF;
+    color: #0077B5;
+}
+
+.on-scroll button:hover {
+    background: #FFFFFF;
+    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+}
+
+.on-scroll button:active {
+    background: #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);  
+    color: #FFFFFF; 
+}
+
+.on-scroll .wrapper {
+    align-items: center;
+}
 
 /* || Main Body Page */
 
@@ -731,26 +789,3 @@ header nav ul li a {
     }
 }
 
-button:hover {
-    background: #2D9CDB;
-    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
-}
-
-button:active {
-    border: 2px solid #0077B5;
-    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
-    background: #FFFFFF;
-    color: #0077B5;
-}
-
-#submit:hover {
-    background: #2D9CDB;
-    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
-}
-
-#submit:active {
-    border: 2px solid #0077B5;
-    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
-    background: #FFFFFF;
-    color: #0077B5;
-}
