@@ -481,31 +481,7 @@ header nav ul li a {
     cursor: pointer;
 }
 
-/* Button States*/
 
-button:hover {
-    background: #2D9CDB;
-    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
-}
-
-button:active {
-    border: 2px solid #0077B5;
-    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
-    background: #FFFFFF;
-    color: #0077B5;
-}
-
-#submit:hover {
-    background: #2D9CDB;
-    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
-}
-
-#submit:active {
-    border: 2px solid #0077B5;
-    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
-    background: #FFFFFF;
-    color: #0077B5;
-}
 
 
 /* OnScroll */
@@ -1016,17 +992,6 @@ button:active {
     color: #FFFFFF;    
 }
 
-.section7-div button:hover {
-    background: #2D9CDB;
-    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
-}
-
-.section7-div button:active {
-    border: 2px solid #0077B5;
-    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
-    background: #FFFFFF;
-    color: #0077B5;
-}
 
 /* || Footer section */
 
@@ -1130,3 +1095,28 @@ button:active {
     }
 }
 
+/* Button States*/
+
+button:hover {
+    background: #2D9CDB;
+    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+}
+
+button:active {
+    border: 2px solid #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+    background: #FFFFFF;
+    color: #0077B5;
+}
+
+#submit:hover {
+    background: #2D9CDB;
+    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+}
+
+#submit:active {
+    border: 2px solid #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+    background: #FFFFFF;
+    color: #0077B5;
+}
