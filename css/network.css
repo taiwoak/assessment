@@ -485,8 +485,8 @@ header nav ul li a {
 /* OnScroll */
 
 .on-scroll {
-    height: 90px;
-    border-bottom: 10px solid #0077B5;
+    height: 95px;
+    border-bottom: 5px solid #0077B5;
     -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
