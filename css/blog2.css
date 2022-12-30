@@ -535,6 +535,7 @@ header nav ul li a {
     font-weight: 400;
     font-size: 64px;
     line-height: 84px;
+    text-align: center;
     color: #0A2640;
     padding-top: 49.5px;
     padding-bottom: 24px;
@@ -556,8 +557,11 @@ header nav ul li a {
 }
 
 .main-blo2-con3 {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 530px;
+    gap: 600px;
     padding: 0px 140px 64px 116px;
 }
 
@@ -592,7 +596,12 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 12px;
+}
+
+#tt {
+    margin-top: -5px;
 }
 
 .main-blo2-con4 {
@@ -686,7 +695,9 @@ header nav ul li a {
     color: #000000;
 }
 
-
+.main-blo2-con5 {
+    padding-bottom: 114px;
+}
 
 
 /* || Footer section */

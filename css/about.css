@@ -675,25 +675,57 @@ header nav ul li a {
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .main-abo-con2a {
-    height: 500px;
-    padding: 70px 40px 0px 40px; 
+    height: 360px; 
     background: #0077B5;
     flex: 25%;
 }
 
 .main-abo-con2b {
-    height: 500px;
-    padding: 70px 40px 0px 40px;  
+    height: 360px;
     background: #F2F8FB;
     flex: 25%;
 }
 
-.main-abo-con2 img {
+.main-abo-con2d {
+    height: 360px; 
+    background: #0077B5;
+    flex: 25%;
+}
+
+.main-abo-con2e {
+    height: 360px;
+    background: #F2F8FB;
+    flex: 25%;
+}
+
+
+.main-abo-con2 #img1 {
     display: block;
     margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: -80px;
+}
+.main-abo-con2 #img2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: -30px;
+}
+.main-abo-con2 #img3 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: -65px;
+}
+.main-abo-con2 #img4 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: -55px;
 }
 
 .main-abo-con2a h1 {
@@ -703,8 +735,18 @@ header nav ul li a {
     font-size: 26px;
     line-height: 34px;
     color: #FFFFFF;
-    padding-top: 30px;
     text-align: center;
+    padding-top: 110px;
+}
+.main-abo-con2d h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 95px;
 }
 
 .main-abo-con2b h1 {
@@ -714,11 +756,38 @@ header nav ul li a {
     font-size: 26px;
     line-height: 34px;
     color: #2F80ED;
-    padding-top: 30px;
     text-align: center;
+    padding-top: 60px;
+}
+.main-abo-con2e h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #2F80ED;
+    text-align: center;
+    padding-top: 85px;
 }
 
-.main-abo-con2a p {
+.about-hide {
+    display: none;
+}
+
+#about, #about-three {
+    height: 360px; 
+    background: #0077B5;
+    padding-top: 100px;
+}
+
+#about-two, #about-four {
+    height: 360px; 
+    background: #F2F8FB;
+}
+
+
+
+.main-abo-con2a p, .main-abo-con2d p {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -727,9 +796,11 @@ header nav ul li a {
     text-align: center;
     color: #FFFFFF;
     padding-top: 18px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.main-abo-con2b p {
+.main-abo-con2b p, .main-abo-con2e p {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -738,7 +809,11 @@ header nav ul li a {
     text-align: center;
     color: #0077B5;
     padding-top: 18px;
+    width: 90%;
+    margin: 0 auto;
 }
+
+
 
 .main-abo-con3 h1 {
     font-family: 'DM Sans';

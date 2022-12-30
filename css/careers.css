@@ -6,7 +6,6 @@
     font-family: 'DM Sans', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
   }
   
 body {
@@ -59,6 +58,7 @@ header {
 
 header nav ul li {
     padding: 15px 0px;
+    list-style: none;
 }
 
 header nav ul li a {
@@ -525,141 +525,201 @@ header nav ul li a {
     justify-content: center;
 }
 
-.main-blo-con1 {
-    align-items: center;
-    gap: 100px;
-    padding: 149px 60px 131px 60px;
-}
-
-/* .main-blo-con1a {
-    margin-bottom: 62px;
-} */
-
-.main-blo-con1b {
-    width: 550px;
-}
-
-.main-blo-con1c {
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    padding-bottom: 12px;
-}
-
-.main-blo-con1c h3 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    text-decoration-line: underline;
-    color: #0A2640;
-}
-
-.main-blo-con1c p {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    text-decoration-line: underline;
-    color: #777777;
-}
-
-.main-blo-con1b h1 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-    text-decoration-line: underline;
-    color: #000000;
-    padding-bottom: 20px;
-}
-
-.main-blo-con1d {
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-}
-
-.main-blo-con1d p {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    text-decoration-line: underline;
-    color: #000000;
-}
-
-.main-blo-border {
+.main-cars-con1 {
+    padding: 138px 0px 83px 0px;
     width: 1200px;
-    height: 1px;
-    background: #0A2640;
     margin: 0 auto;
+    border-bottom: 1px solid #000000;
 }
 
-.main-blo-con2 {
-    gap: 50px;
-    padding-top: 141px;
-}
-
-.main-blo-con3 {
-    gap: 50px;
-    padding-top: 132px;
-    padding-bottom: 123px;
-}
-
-.main-blo-con2a {
-    width: 300px;
-    height: 372px;
-}
-
-.main-blo-con2a img {
-    border-radius: 24px;
-}
-
-.main-blo-con2b {
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-    padding-top: 24px;
-    padding-bottom: 12px;   
-}
-
-.main-blo-con2b h3 {
-    font-family: 'Open Sans';
+.main-cars-con1 h1 {
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: #0A2640;
+    font-size: 55px;
+    line-height: 72px;
+    text-align: center;
+    color: #3D3D3D;
+    padding-bottom: 35px;
 }
 
-.main-blo-con2b p {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #777777;
+.main-cars-con1b {
+    align-items: center;
+    gap: 60px;
 }
 
-.main-blo-con2a h1 {
-    font-family: 'Open Sans';
+.main-cars-con1c {
+    align-items: center;
+    gap: 4px;
+}
+
+.main-cars-con1 p {
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 26px; 
+    letter-spacing: 0.005em;
+    color: #686781;
+}
+
+.main-cars-con1 h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+    color: #3D3D3D;
+}
+
+.main-cars-con2 {
+    padding: 83px 0px 127px 0px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-cars-con2 h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    padding-bottom: 65px;
+}
+
+.main-cars-con2 p, .main-cars-con2 ul li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.005em;
     color: #000000;
 }
 
+.main-cars-con2 ul li {
+    margin-left: 40px;
+}
+
+.main-cars-con2a {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-cars-con2a p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    padding-bottom: 65px;
+}
+
+.main-cars-con2ap {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #686781;  
+}
+
+.main-cars-con2b {
+    padding-top: 83px;
+}
+
+.main-cars-con2c {
+    padding-top: 65px;
+    padding-bottom: 127px;
+}
+
+.main-cars-con2 button {
+    width: 321px;
+    height: 56px;
+    background: #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+    border-radius: 10px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.0125em;
+    color: #FFFFFF;
+}
+
+#modal {
+    display: none;
+}
+
+.modal-overlay1 {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    background: rgba(64, 64, 64, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.modal-container1 {
+    width: 854px;
+    height: 542px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    z-index: 20;
+    margin: 0 auto;
+}
+
+.modal-section1 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.modal-body1 {
+    padding: 56px 72px 49px 72px;
+}
+
+#file {
+    display: none;
+}
+
+.modal-file {
+    width: 339px;
+    height: 56px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: #3D3D3D;
+    border: none;
+    outline: none;
+    margin-bottom: 77px;
+    cursor: pointer;
+}
 
 
 
