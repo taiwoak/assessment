@@ -915,7 +915,7 @@ header nav ul li a {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px * 7));
+        transform: translateX(-100%);
     }
 }
 
@@ -932,11 +932,13 @@ header nav ul li a {
     overflow: hidden;
     position: relative;
     z-index: -20;
+    display: flex;
+    gap: 50px;
 }
 
 .slider .slide-track {
-    animation: scroll 40s linear infinite;
-    width: calc(250px * 13);
+    animation: scroll 30s linear infinite;
+    /* width: calc(250px * 18); */
 }
 
 
