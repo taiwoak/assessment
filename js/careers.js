@@ -1,3 +1,6 @@
+
+window.onload = openFunction();
+
 function openFunction() {
     var modal = document.getElementById("modal");
     var body = document.getElementById("myBody");

@@ -7,6 +7,9 @@ function myFunction() {
     }
   }
 
+
+
+window.onload = myOpenFunction();
 function myOpenFunction() {
     var modal = document.getElementById("myModal");
     var body = document.getElementById("myBody");
