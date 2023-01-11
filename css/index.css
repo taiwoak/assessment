@@ -142,6 +142,10 @@ header nav ul li a {
     gap: 30px;
 }
 
+.service-nav1:hover {
+    justify-content: center;
+    transition: 0.3s;
+}
 
 .service-nav h1 {
     font-family: 'DM Sans';
@@ -225,6 +229,11 @@ header nav ul li a {
     justify-content: start;
     align-items: center;
     gap: 30px;
+}
+
+.company-nav1:hover {
+    justify-content: center;
+    transition: 0.3s;
 }
 
 .company-nav h1 {
