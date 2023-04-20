@@ -3723,6 +3723,8 @@ button:active {
         width: 100%;
         height: 56px;
         display: flex;
+        position: fixed;
+        top: 0;
     }
     
 
@@ -3813,6 +3815,22 @@ button:active {
         letter-spacing: 0.0125em;
         color: #FFFFFF;
     }
+
+    /* OnScroll */
+
+    .on-scroll {
+        height: 56px;
+        border-bottom: 4px solid #0077B5;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
+    .on-scroll .wrapper {
+        align-items: center;
+    }
+
 
     /* Mobile Screen for Index CSS file */
 
