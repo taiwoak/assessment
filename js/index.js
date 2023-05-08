@@ -34,3 +34,29 @@ function myCloseFunction() {
     }
   }
 
+
+  window.onload = myMenuOpenFunction();
+  function myMenuOpenFunction() {
+      const mmodal = document.getElementById("myMenuModal");
+      // var body = document.getElementById("myBody");
+      if (mmodal.style.display === "none") {
+         mmodal.style.display = "block";
+        //  body.style.overflowY = "hidden";
+      } else {
+          mmodal.style.display = "none";
+          // body.style.overflowY = "scroll";
+      }
+    }
+  
+  function myMenuCloseFunction() {
+      var mmodal = document.getElementById("myMenuModal");
+      // var body = document.getElementById("myBody");
+      if (mmodal.style.display === "block") {
+         mmodal.style.display = "none";
+        //  body.style.overflowY = "scroll";
+      } else {
+          mmodal.style.display = "block";
+          // body.style.overflow.y = "hidden";
+      }
+    }
+
