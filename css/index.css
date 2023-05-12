@@ -596,6 +596,13 @@ header nav ul li a {
     display: none;
 }
 
+.main-con-7-mob {
+    display: none;
+}
+.main-con-7 {
+    display: block;
+}
+
 .menu-section4-div {
     display: none;
 }
@@ -3934,11 +3941,23 @@ button:active {
         display: none;
     }
 
+    #myMenuMobModal {
+        display: none;
+    }
+
     #myBody {
         overflow-y: auto;
     }
 
     .modal-overlay {
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        background: rgba(64, 64, 64, 0.3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 20;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -4642,6 +4661,12 @@ button:active {
         /* width: calc(250px * 18); */
     }
     
+    .main-con-7-mob {
+        display: block;
+    }
+    .main-con-7 {
+        display: none;
+    }
     
     .main-container7 {
         padding: 0px 0px 60px 0px;

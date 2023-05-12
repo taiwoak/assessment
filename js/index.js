@@ -49,7 +49,7 @@ function myCloseFunction() {
     }
   
   function myMenuCloseFunction() {
-      var mmodal = document.getElementById("myMenuModal");
+      const mmodal = document.getElementById("myMenuModal");
       // var body = document.getElementById("myBody");
       if (mmodal.style.display === "block") {
          mmodal.style.display = "none";
@@ -60,3 +60,29 @@ function myCloseFunction() {
       }
     }
 
+
+    window.onload = myMenuMobOpenFunction();
+    function myMenuMobOpenFunction() {
+        const mmmodal = document.getElementById("myMenuMobModal");
+        // var body = document.getElementById("myBody");
+        if (mmmodal.style.display === "none") {
+           mmmodal.style.display = "block";
+          //  body.style.overflowY = "hidden";
+        } else {
+            mmmodal.style.display = "none";
+            // body.style.overflowY = "scroll";
+        }
+      }
+    
+    function myMenuMobCloseFunction() {
+        const mmmodal = document.getElementById("myMenuMobModal");
+        // var body = document.getElementById("myBody");
+        if (mmmodal.style.display === "block") {
+           mmmodal.style.display = "none";
+          //  body.style.overflowY = "scroll";
+        } else {
+            mmmodal.style.display = "block";
+            // body.style.overflow.y = "hidden";
+        }
+      }
+  
