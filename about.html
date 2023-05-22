@@ -15,9 +15,130 @@
  </head>
  <body id="myBody">
      <header>
+         <nav class="menu-wrapper">
+            <span class="menu-logo">
+                <a href="index.html"><img src="img/img/MAIN2.svg" alt="Intellitech Logo"></a>
+            </span>
+            <div class="hamburger">
+                <div class="menu">
+                    <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+                        <img src="img/img/ic_round-menu.svg" alt="Menu">
+                    </a>
+                </div>
+                <div id="myLinks" class="menu-overlay">
+                    <div class="menu-close close">
+                        <img src="img/img/ic_close.svg" alt="Close" class="img-close" onclick="myCloseMenu()">
+                    </div>
+                    <button class="menu-btn" onclick="myMenuOpenFunction()">Get a Quote</button>
+                    <div id="myMenuModal" class="modal-overlay">
+                        <div class="modal-container">
+                            <div class="modal-header modal-section1">
+                                <p>Get a Quote</p>
+                                <img src="img/img/cancel.svg" alt="" width="24px" height="24px" class="close-img" onclick="myMenuCloseFunction()">
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="post">
+                                    <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>  
+                                    <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                                    <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                                    <div class="custom-select">
+                                       <!-- <span><img src="img/img/down.png" alt="" id="select-img-down"></span> -->
+                                       <select name="service" id="select">
+                                        <option value="0">Choose a service</option>
+                                        <option value="1">Software Development</option>
+                                        <option value="2">IT Support</option>
+                                        <option value="3">Consultancy</option>
+                                        <option value="4">Network Design</option>
+                                       </select> 
+                                    </div>
+                                    <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                                    <input type="submit" value="Get a Quote" id="submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mylinks" >
+                        <div class="mylink"><a href="index.html">Home</a></div>
+                        <div class="mylink"><span class="menu-inline">
+                        <a href="services.html">Services</a>
+                        <img src="img/img/ic_round-keyboard-arrow-down.svg" alt="Arrow" id="img-arrow-down" onclick="myService()">
+                        </span></div>
+                        <div id="menu-service-onclick" class="menu-service-nav">
+                            <div class="menu-service">
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup.png" alt="IT Support">
+                                    <a href="itsupport.html">
+                                        <h1>IT Support</h1>
+                                        <p>Software and Hardware Support</p>
+                                    </a>
+                                </span>
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup2.png" alt="Software Development">
+                                    <a href="softdev.html">
+                                        <h1>Software Development</h1>
+                                        <p>Web, Mobile, and Desktop</p>
+                                    </a>
+                                </span>
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup3.png" alt="Networking">
+                                    <a href="network.html">
+                                        <h1>Networking</h1>
+                                        <p>Networking and Security Design</p>
+                                    </a>
+                                </span>
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup4.png" alt="Consultancy">
+                                    <a href="consultancy.html">
+                                        <h1>Consultancy</h1>
+                                        <p>Support, Management, and Procurement</p>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mylink"><a href="products.html">Products</a></div>
+                        <div class="mylink"><span class="menu-inline">
+                        <a href="contact.html">Company</a>
+                        <img src="img/img/ic_round-keyboard-arrow-down.svg" alt="Arrow" id="img-arrow-down-con" onclick="myCompany()">
+                        </span></div>
+                        <div id="menu-company-onclick" class="menu-service-nav">
+                            <div class="menu-service">
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup5.png" alt="Blog">
+                                    <a href="blog.html">
+                                        <h1>Blog</h1>
+                                        <p>Our ideas and experiences</p>
+                                    </a>
+                                </span>
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup6.png" alt="About Us">
+                                    <a href="about.html">
+                                        <h1>About Us</h1>
+                                        <p>Be inspired about our uniqueness</p>
+                                    </a>
+                                </span>
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup7.png" alt="Career">
+                                    <a href="career.html">
+                                        <h1>Career</h1>
+                                        <p>Enhance your knowledge with us</p>
+                                    </a>
+                                </span>
+                                <span class="menu-service1">
+                                    <img src="img/img/MaskGroup8.png" alt="Contact Us">
+                                    <a href="contact.html">
+                                        <h1>Contact Us</h1>
+                                        <p>Get in touch with us</p>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </nav>
          <nav class="wrapper">
             <span class="logo">
-                <a href="index.html"><img src="img/img/MAIN2.png" width="229px" height="60px" alt="Intellitech Logo"></a>
+                <a href="index.html"><img src="img/img/MAIN2.svg" width="229px" height="60px" alt="Intellitech Logo"></a>
             </span>
             <ul class="nav-items">
                 <li><a href="index.html" class="nav-hover">Home</a></li>
@@ -104,7 +225,7 @@
                 <div class="modal-container">
                     <div class="modal-header modal-section1">
                         <p>Get a Quote</p>
-                        <img src="img/img/cancel.png" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
+                        <img src="img/img/cancel.svg" alt="" width="24px" height="24px" class="close-img" onclick="myCloseFunction()">
                     </div>
                     <div class="modal-body">
                         <form action="" method="post">
@@ -247,19 +368,19 @@
      </main>
      <footer class="footer-container">
         <section class="main-section1 footer-section-div">
-            <div class="footer-section-div1">
+            <div class="footer-section-div1 footer-sec1">
                 <div class="footer-section-div1a">
-                    <img src="img/img/MAIN2.png" alt="Intellitech Logo" width="229px" height="60px">
+                    <img src="img/img/MAIN2.svg" alt="Intellitech Logo">
                     <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
                 </div>
-                <div class="main-section1 footer-section-div1b">
-                    <a href=""><img src="img/img/facebook.png" alt="Facebook" width="55px" height="55px"></a>
-                    <a href=""><img src="img/img/instagram.png" alt="Instagram" width="55px" height="55px"></a>
-                    <a href=""><img src="img/img/twitter.png" alt="Twitter" width="55px" height="55px"></a>
-                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn" width="55px" height="55px"></a>
+                <div class="main-section1 menu-section7-div footer-section-div1b">
+                    <a href=""><img src="img/img/facebook.png" alt="Facebook"></a>
+                    <a href=""><img src="img/img/instagram.png" alt="Instagram"></a>
+                    <a href=""><img src="img/img/twitter.png" alt="Twitter"></a>
+                    <a href=""><img src="img/img/linkedin.png" alt="LinkedIn"></a>
                 </div>
             </div>
-            <div class="footer-section-div2">
+            <div class="footer-section-div2 footer-desktop">
                 <a href="contact.html"><h1>Company</h1></a>
                 <a href="blog.html"><p>Blog</p></a>
                 <a href="career.html"><span class="footer-section-div2a">
@@ -268,23 +389,85 @@
                 </span></a>
                 <a href="about.html"><p>About</p></a>
             </div>
-            <div class="footer-section-div2">
+            <div class="footer-section-div2 footer-desktop">
                 <a href="services.html"><h1>Services</h1></a>
                 <a href="itsupport.html"><p>IT Support</p></a>
                 <a href="consultancy.html"><p>Consultancy</p></a>
                 <a href="network.html"><p>Network Design</p></a>
             </div>
-            <div class="footer-section-div2">
+            <div class="footer-mobile">
+                <div class="menu-section7-div footer-mobile-sec">
+                    <div class="footer-section-div2">
+                        <a href="contact.html"><h1>Company</h1></a>
+                        <a href="blog.html"><p>Blog</p></a>
+                        <a href="career.html"><span class="footer-section-div2a">
+                            <p>Careers</p>
+                            <button>Hiring!</button>
+                        </span></a>
+                        <a href="about.html"><p>About</p></a>
+                    </div>
+                    <div class="footer-section-div2">
+                        <a href="services.html"><h1>Services</h1></a>
+                        <a href="itsupport.html"><p>IT Support</p></a>
+                        <a href="consultancy.html"><p>Consultancy</p></a>
+                        <a href="network.html"><p>Network Design</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section-div2 footer-sec1">
                 <a href="products.html"><h1>Products</h1></a>
                 <a href="hotel.html"><p>HotelREP</p></a>
                 <a href="biro.html"><p>BiRO</p></a>
                 <a href="sales.html"><p>SalesREP</p></a>
+            </div>
+            <div class="footer-tablet">
+                <div class="menu-section7-div footer-tab1">
+                    <div class="footer-section-div1 footer-tab1a">
+                        <div class="footer-section-div1a">
+                            <img src="img/img/MAIN2.svg" alt="Intellitech Logo">
+                            <p>It is not just our objective to satisfy or delight our consumers; it is also our intention to amaze them.</p>
+                        </div>
+                        <div class="main-section1 menu-section7-div footer-section-div1b">
+                            <a href=""><img src="img/img/facebook.png" alt="Facebook"></a>
+                            <a href=""><img src="img/img/instagram.png" alt="Instagram"></a>
+                            <a href=""><img src="img/img/twitter.png" alt="Twitter"></a>
+                            <a href=""><img src="img/img/linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="footer-section-div2 footer-tab1b">
+                        <a href="contact.html"><h1>Company</h1></a>
+                        <a href="blog.html"><p>Blog</p></a>
+                        <a href="career.html"><span class="footer-section-div2a">
+                            <p>Careers</p>
+                            <button>Hiring!</button>
+                        </span></a>
+                        <a href="about.html"><p>About</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-tablet">
+                <div class="menu-section7-div footer-tab2">
+                    <div class="footer-section-div2 footer-tab2a">
+                        <a href="services.html"><h1>Services</h1></a>
+                        <a href="itsupport.html"><p>IT Support</p></a>
+                        <a href="consultancy.html"><p>Consultancy</p></a>
+                        <a href="network.html"><p>Network Design</p></a>
+                    </div>
+                    <div class="footer-section-div2 footer-tab2b">
+                        <a href="products.html"><h1>Products</h1></a>
+                        <a href="hotel.html"><p>HotelREP</p></a>
+                        <a href="biro.html"><p>BiRO</p></a>
+                        <a href="sales.html"><p>SalesREP</p></a>
+                    </div>
+                </div>
             </div>
         </section>
         <div class="footer-section-div3">
             <p>Copyright © 2022. All Rights Reserved.</p>
         </div>
      </footer>
+     <script type = "text/javascript" src="js/service.js"></script>
+     <script type = "text/javascript" src="js/menu.js"></script>
      <script type = "text/javascript" src="js/about.js"></script>
      <script type = "text/javascript" src="js/navscroll.js"></script>
      <script type = "text/javascript" src="js/select.js"></script>
