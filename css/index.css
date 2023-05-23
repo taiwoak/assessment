@@ -1124,6 +1124,11 @@ header nav ul li a {
     padding: 112px 120px 65px 100px;
 }
 
+.main-serv-con2 img, .main-serv-con3 img, .main-serv-con4 img, .main-serv-con5 img {
+    width: 600px;
+    height: 400px;
+}
+
 .main-section1 {
     display: -webkit-flex;
     display: flex;
@@ -1245,6 +1250,16 @@ header nav ul li a {
     color: #FFFFFF;
     text-align: center;
     padding-top: 194px;
+}
+
+.main-soft-con2 img, .main-soft-con3 img {
+    width: 96px;
+    height: 96px;
+}
+
+.main-soft-con6 img, .main-soft-con7 img {
+    width: 72px;
+    height: 72px;
 }
 
 .main-soft-con2 {
@@ -4717,12 +4732,305 @@ button:active {
     
 
 
+    /* Mobile Screen for Services CSS file */
 
+    .main-serv-con1 {
+        padding: 64px 16px 80px 16px;
+    }
+    
+    .main-serv-con1 h1 {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+    
+    .main-serv-con1 p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+    
+    .main-serv-con2 {
+        background: #F2F8FB;
+        padding: 40px 16px 45px 16px;
+    }
 
+    .main-serv-con2 img, .main-serv-con3 img, .main-serv-con4 img, .main-serv-con5 img {
+        width: 343px;
+        height: 229px;
+    }
+    
+    .main-section1 {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .main-serv-con2a {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 48px;
+    }
+    
+    .main-serv-con2a h1, .main-serv-con3a h1, .main-serv-con4a h1, .main-serv-con5a h1 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-bottom: 16px;
+    }
+    
+    .main-serv-con2a p, .main-serv-con4a p {
+        font-size: 14px;
+        line-height: 160%;
+        text-align: justify;
+    }
+    
+    .main-serv-con3a p, .main-serv-con5a p {
+        font-size: 14px;
+        line-height: 160%;
+        text-align: justify;
+    }
+    
+    .main-serv-con2 button, .main-serv-con3 button, .main-serv-con4 button, .main-serv-con5 button {
+        height: 48px;
+        background: #0077B5;
+        box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+        border-radius: 8px;
+        border: none;
+        font-size: 14px;
+        line-height: 150%; 
+    }
+    
+    .main-serv-con3 {
+        background: #FFFFFF;
+        padding: 40px 16px 45px 16px;
+    }
+    
+    .main-serv-con3a {
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 48px;
+    }
+    
+    .main-serv-con4 {
+        background: #F2F8FB;
+        padding: 40px 16px 45px 16px;
+    }
+    
+    .main-serv-con4a {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 48px;
+    }
+    
+    .main-serv-con5 {
+        background: #FFFFFF;
+        padding: 40px 16px 45px 16px;
+    }
+    
+    .main-serv-con5a {
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 48px;
+    }
 
+    /* Mobile Screen for Software Development CSS file */
 
+    .main-soft-con1 {
+        padding: 47px 16px 40px 16px;
+    }
+    
+    .main-soft-con-img {
+        width: 343px;
+        height: 138px;
+        background-image: url(../img/img/image5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5.53226px;
+    }
+    
+    .main-soft-con-img h1 {
+        font-size: 20px;
+        line-height: 150%; 
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 54px;
+    }
+    
+    .main-soft-con2 img, .main-soft-con3 img {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .main-soft-con6 img, .main-soft-con7 img {
+        width: 48px;
+        height: 48px;
+    }
 
-
+    .main-soft-con2 {
+        gap: 64px;
+        padding-bottom: 64px;
+        padding: 24px 16px 64px 16px;
+    }
+    
+    .main-soft-con3 {
+        gap: 64px;
+        padding-bottom: 88px;
+        padding: 0px 16px 88px 16px;
+    }
+    
+    .main-soft-con2a {
+        width: 343px;
+        height: 156px;
+    }
+    
+    .main-soft-con2b {
+        width: 343px;
+        height: 156px;
+    }
+    
+    .main-soft-con2c {
+        width: 343px;
+        height: 156px;
+    }
+    
+    .main-soft-con2a img, .main-soft-con2b img, .main-soft-con2c img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .main-soft-con2a h1, .main-soft-con2b h1, .main-soft-con2c h1 {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #0077B5;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .main-soft-con2a p, .main-soft-con2b p, .main-soft-con2c p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+    
+    .main-soft-con4 {
+        background: #F2F2F2;
+        padding: 40px 16px 40px 16px;
+        gap: 48px;
+    }
+    
+    .main-soft-con4 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #0077B5;
+        padding-bottom: 24px;
+    }
+    
+    .main-soft-con4 p {
+        font-size: 14px;
+        line-height: 160%; 
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+    
+    .main-soft-con4a {
+        padding-right: 0px;
+    }
+    
+    .main-soft-con5 {
+        height: 240px;
+        background: #0077B5;
+    }
+    
+    .main-soft-con5 h1 {
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-top: 40px;
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    
+    .main-soft-con5 p {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        font-size: 14px;
+        line-height: 160%; 
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+    }
+    
+    .main-soft-con6 {
+        gap: 64px;
+        padding-top: 80px;
+        padding-bottom: 64px;
+        padding: 80px 16px 64px 16px;
+    }
+    
+    .main-soft-con7 {
+        gap: 64px;
+        padding-bottom: 120px;
+        padding: 0px 16px 120px 16px;
+    }
+    
+    .main-soft-con6a {
+        width: 343px;
+    }
+    
+    .main-soft-con6b {
+        width: 343px;
+    }
+    
+    .main-soft-con6c {
+        width: 343px;
+    }
+    
+    .main-soft-con7a {
+        width: 343px;
+    }
+    
+    .main-soft-con7b {
+        width: 343px;
+    }
+    
+    .main-soft-con7c {
+        width: 343px;
+    }
+    
+    .main-soft-con6a img, .main-soft-con6b img, .main-soft-con6c img,
+    .main-soft-con7a img, .main-soft-con7b img, .main-soft-con7c img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .main-soft-con6a h1, .main-soft-con6b h1, .main-soft-con6c h1,
+    .main-soft-con7a h1, .main-soft-con7b h1, .main-soft-con7c h1 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0077B5;
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .main-soft-con6a p, .main-soft-con6b p, .main-soft-con6c p,
+    .main-soft-con7a p, .main-soft-con7b p, .main-soft-con7c p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+    
 
 
 
@@ -4839,6 +5147,9 @@ button:active {
     }
     
 }
+
+
+
 
 /* Tablet Screen Codebase */
 
@@ -5648,17 +5959,6 @@ button:active {
         color: #FFFFFF;    
     } */
     
-
-
-
-
-
-
-
-
-
-
-
 
 
      /* Tablet Screen for Footer */
