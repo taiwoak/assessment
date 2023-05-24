@@ -1483,6 +1483,21 @@ header nav ul li a {
     width: 311px;
 }
 
+.main-it-con2a img {
+    width: 201px;
+    height: 137px;
+}
+
+.main-it-con2b img {
+    width: 190px;
+    height: 138px;
+}
+
+.main-it-con2c img {
+    width: 175px;
+    height: 137.85px;
+}
+
 .main-it-con2a img, .main-it-con2b img, .main-it-con2c img {
     display: block;
     margin: 0 auto;
@@ -1514,6 +1529,21 @@ header nav ul li a {
 .main-it-con3 {
     background: #F2F2F2;
     padding-top: 60px;
+}
+
+.main-it-con4a img {
+    width: 71.26px;
+    height: 64px;
+}
+
+.main-it-con5a img {
+    width: 62.90px;
+    height: 64px;
+}
+
+.main-it-con4b img, .main-it-con4c img, .main-it-con5b img, .main-it-con5c img {
+    width: 64px;
+    height: 64px;
 }
 
 .main-it-con3 h1 {
@@ -4869,7 +4899,7 @@ button:active {
     /* Mobile Screen for Software Development CSS file */
 
     .main-soft-con1 {
-        padding: 47px 16px 40px 16px;
+        padding: 40px 16px 40px 16px;
     }
     
     .main-soft-con-img {
@@ -5083,7 +5113,201 @@ button:active {
 
     /* Mobile Screen for IT Support CSS file */
 
+    .main-it-con1 {
+        padding: 40px 16px 40px 16px;
+    }
     
+    .main-it-con-img {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        height: 138px;
+        border-radius: 5.53226px;
+        background-image: url(../img/img/image8.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .main-it-con-img h1 {
+        font-size: 20px;
+        line-height: 150%; 
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 54px;
+    }
+    
+    .main-it-con2 {
+        gap: 64px;
+        padding-bottom: 80px;
+    }
+    
+    .main-it-con2a {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-it-con2b {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-it-con2c {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+
+    .main-it-con2a img {
+        width: 105.95px;
+        height: 72px;
+    }
+    
+    .main-it-con2b img {
+        width: 99.13px;
+        height: 72px;
+    }
+    
+    .main-it-con2c img {
+        width: 81.25px;
+        height: 64px;
+    }
+
+    .main-it-con2a img, .main-it-con2b img, .main-it-con2c img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .main-it-con2a h1, .main-it-con2b h1, .main-it-con2c h1 {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .main-it-con2a p, .main-it-con2b p, .main-it-con2c p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.005em;
+    }
+    
+    .main-it-con3 {
+        background: #F2F2F2;
+        padding-top: 40px;
+        padding: 40px 16px 40px 16px;
+    }
+
+    .main-it-con4a img {
+        width: 45px;
+        height: 40px;
+    }
+    
+    .main-it-con5a img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .main-it-con4b img, .main-it-con4c img, .main-it-con5b img, .main-it-con5c img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .main-it-con3 h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0077B5;
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    
+    .main-it-con3 p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+        padding-bottom: 48px;
+        text-align: center;
+    }
+    
+    .main-it-con4 {
+        gap: 40px;
+        padding-bottom: 40px;
+        padding: 0px 16px 40px 16px;
+    }
+    
+    .main-it-con5 {
+        gap: 40px;
+        padding: 0px 16px 0px 16px;
+    }
+    
+    .main-it-con4a, .main-it-con5a {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-it-con4b, .main-it-con5b {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-it-con4c {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-it-con5c {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-it-con4a img, .main-it-con4b img, .main-it-con4c img,
+    .main-it-con5a img, .main-it-con5b img, .main-it-con5c img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .main-it-con4a h1, .main-it-con4b h1, .main-it-con4c h1,
+    .main-it-con5a h1, .main-it-con5b h1, .main-it-con5c h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #3D3D3D;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .main-it-con4a p, .main-it-con4b p, .main-it-con4c p,
+    .main-it-con5a p, .main-it-con5b p, .main-it-con5c p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+
+    /* Mobile Screen for Network Design CSS file */
+
+    
+
 
      /* Mobile Screen for Footer */
 
