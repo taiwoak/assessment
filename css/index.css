@@ -4265,6 +4265,7 @@ button:active {
     .mobile-sec1-con2 {
         display: none;
     }
+
     .mobile-sec1-con2b {
         display: block;
         padding-top: 40px;
@@ -4730,7 +4731,17 @@ button:active {
         color: #FFFFFF;    
     }
     
-
+    .main-container3 button:hover, .main-container4 button:hover, .main-con-7-mob button:hover {
+        background: #2D9CDB;
+        box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+    }
+    
+    .main-container3 button:active , .main-container4 button:active , .main-con-7-mob button:active {
+        border: 2px solid #0077B5;
+        box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+        background: #FFFFFF;
+        color: #0077B5;
+    }
 
     /* Mobile Screen for Services CSS file */
 
@@ -4746,6 +4757,9 @@ button:active {
     }
     
     .main-serv-con1 p {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
         font-size: 14px;
         line-height: 18px;
         text-align: center;
@@ -4761,13 +4775,6 @@ button:active {
         height: 229px;
     }
     
-    .main-section1 {
-        display: -webkit-flex;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
     .main-serv-con2a {
         flex-direction: column-reverse;
         align-items: center;
@@ -4776,18 +4783,27 @@ button:active {
     }
     
     .main-serv-con2a h1, .main-serv-con3a h1, .main-serv-con4a h1, .main-serv-con5a h1 {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
         font-size: 20px;
         line-height: 26px;
         padding-bottom: 16px;
     }
     
     .main-serv-con2a p, .main-serv-con4a p {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
         font-size: 14px;
         line-height: 160%;
         text-align: justify;
     }
     
     .main-serv-con3a p, .main-serv-con5a p {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
         font-size: 14px;
         line-height: 160%;
         text-align: justify;
@@ -4803,6 +4819,19 @@ button:active {
         line-height: 150%; 
     }
     
+    .main-serv-con2 button:hover, .main-serv-con3 button:hover, .main-serv-con4 button:hover, .main-serv-con5 button:hover {
+        background: #2D9CDB;
+        box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+    }
+    
+    .main-serv-con2 button:active , .main-serv-con3 button:active , .main-serv-con4 button:active, .main-serv-con5 button:active {
+        border: 2px solid #0077B5;
+        box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+        background: #FFFFFF;
+        color: #0077B5;
+    }
+
+
     .main-serv-con3 {
         background: #FFFFFF;
         padding: 40px 16px 45px 16px;
@@ -4844,6 +4873,8 @@ button:active {
     }
     
     .main-soft-con-img {
+        display: block;
+        margin: 0 auto;
         width: 343px;
         height: 138px;
         background-image: url(../img/img/image5.png);
@@ -4883,16 +4914,22 @@ button:active {
     }
     
     .main-soft-con2a {
+        display: block;
+        margin: 0 auto;
         width: 343px;
         height: 156px;
     }
     
     .main-soft-con2b {
+        display: block;
+        margin: 0 auto;
         width: 343px;
         height: 156px;
     }
     
     .main-soft-con2c {
+        display: block;
+        margin: 0 auto;
         width: 343px;
         height: 156px;
     }
@@ -4983,26 +5020,38 @@ button:active {
     }
     
     .main-soft-con6a {
+        display: block;
+        margin: 0 auto;
         width: 343px;
     }
     
     .main-soft-con6b {
+        display: block;
+        margin: 0 auto;
         width: 343px;
     }
     
     .main-soft-con6c {
+        display: block;
+        margin: 0 auto;
         width: 343px;
     }
     
     .main-soft-con7a {
+        display: block;
+        margin: 0 auto;
         width: 343px;
     }
     
     .main-soft-con7b {
+        display: block;
+        margin: 0 auto;
         width: 343px;
     }
     
     .main-soft-con7c {
+        display: block;
+        margin: 0 auto;
         width: 343px;
     }
     
@@ -5032,9 +5081,9 @@ button:active {
     }
     
 
+    /* Mobile Screen for IT Support CSS file */
 
-
-
+    
 
      /* Mobile Screen for Footer */
 
