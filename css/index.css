@@ -1651,6 +1651,11 @@ header nav ul li a {
     padding-top: 194px;
 }
 
+.main-net-con2 img {
+    width: 80px;
+    height: 80px;
+}
+
 .main-net-con2 {
     /* align-items: center; */
     gap: 120px;
@@ -1756,6 +1761,11 @@ header nav ul li a {
     align-items: center;
     gap: 64px;
     padding: 52px 110px 86px 100px;
+}
+
+.main-cons-con1 img {
+    width: 570px;
+    height: 500px;
 }
 
 .main-cons-con1 h1 {
@@ -5139,6 +5149,7 @@ button:active {
     .main-it-con2 {
         gap: 64px;
         padding-bottom: 80px;
+        padding: 40px 16px 80px 16px;
     }
     
     .main-it-con2a {
@@ -5239,13 +5250,13 @@ button:active {
     }
     
     .main-it-con4 {
-        gap: 40px;
-        padding-bottom: 40px;
-        padding: 0px 16px 40px 16px;
+        gap: 24px;
+        padding-bottom: 24px;
+        padding: 0px 16px 24px 16px;
     }
     
     .main-it-con5 {
-        gap: 40px;
+        gap: 24px;
         padding: 0px 16px 0px 16px;
     }
     
@@ -5306,7 +5317,247 @@ button:active {
 
     /* Mobile Screen for Network Design CSS file */
 
+    .main-net-con1 {
+        padding: 40px 16px 40px 16px;
+    }
     
+    .main-net-con-img {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        height: 138px;
+        border-radius: 5.53226px;
+        background-image: url(../img/img/image10.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .main-net-con-img h1 {
+        font-size: 20px;
+        line-height: 150%; 
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 54px;
+    }
+
+    .main-net-con2 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .main-net-con2 {
+        gap: 64px;
+        padding-bottom: 80px;
+        padding: 40px 16px 80px 16px;
+    }
+    
+    .main-net-con2a {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-net-con2b {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-net-con2c {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        margin-top: 0px;
+    }
+    
+    .main-net-con2a img, .main-net-con2b img, .main-net-con2c img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .main-net-con2a h1, .main-net-con2b h1, .main-net-con2c h1 {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #4F4F4F;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .main-net-con2a p, .main-net-con2b p, .main-net-con2c p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #4F4F4F;
+    }
+    
+    .main-net-con3 {
+        align-items: center;
+        gap: 0px;
+        padding: 88px 16px 88px 16px;
+        background: #F2F2F2;
+    }
+    
+    .main-net-con3c {
+        width: 0px;
+        display: none;
+    }
+
+    .main-net-con3a {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-net-con3a h1 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0077B5;
+        padding-bottom: 16px;
+    }
+    
+    .main-net-con3b {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        margin-left: 8px;
+        padding-bottom: 16px; 
+    }
+    
+    .main-net-con3b p {
+        font-size: 14px;
+        line-height: 17px;
+        color: #3D3D3D;
+    }
+    
+    /* Mobile Screen for Consultancy CSS file */    
+    
+    .main-cons-con1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 16px 64px 16px;
+    }
+    
+    .main-cons-con1 img {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        height: 301px;
+    }
+    
+    .main-cons-con1-mob {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+
+    .main-cons-con1 h1 {
+        font-size: 32px;
+        line-height: 42px;
+        color: #0077B5;
+        padding-bottom: 16px;
+    }
+    
+    .main-cons-con1 p {
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.005em;  
+        color: #3D3D3D;
+    }
+    
+    .main-cons-con2 {
+        align-items: center;
+        height: auto;
+        background: #0077B5;
+        padding: 56px 16px 56px 16px;
+    }
+
+    .main-cons-con2 img {
+        display: none;
+    }
+    
+    .main-cons-con2 p {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+    
+    .main-cons-con3 {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        padding: 64px 16px 64px 16px;
+    }
+    
+    .main-cons-con3 p {
+        width: 343px;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: center;
+        color: #3D3D3D;
+    }
+    
+    .main-cons-con4 {
+        gap: 64px;
+        padding: 0px 16px 80px 16px;
+    }
+    
+    .main-cons-con4a {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-cons-con4b {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-cons-con4c {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-cons-con4 h2 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0077B5;
+        padding-bottom: 16px;
+    }
+    
+    .main-cons-con4 p {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.005em; 
+        color: #3D3D3D;
+        padding-bottom: 18px;
+    }
+    
+    .main-cons-con4 ul {
+        margin-left: 24px;
+    }
+    
+    .main-cons-con4 li {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+
+    /* Mobile Screen for Products CSS file */
+
+
 
 
      /* Mobile Screen for Footer */
