@@ -1977,6 +1977,14 @@ header nav ul li a {
 
 /* ||  SALES CSS FILE */
 
+.main-sal-con2 {
+    display: block;
+}
+
+.main-sal-con2-mob {
+    display: none;
+}
+
 .main-sal-con-img {
     background-image: url(../img/img/Rectangle1271.png);
     background-repeat: no-repeat;
@@ -2014,6 +2022,11 @@ header nav ul li a {
     padding: 89px 70px 112px 130px;
     align-items: center;
     gap: 100px;
+}
+
+.main-sal-con1 img {
+    width: 88px;
+    height: 88px;
 }
 
 .main-sal-con1a {
@@ -2066,6 +2079,14 @@ header nav ul li a {
 
 /* ||  BIRO CSS FILE */
 
+.main-bir-con3a {
+    display: block;
+}
+
+.main-bir-con3a-mob {
+    display: none;
+}
+
 .main-bir-con-img {
     background-image: url(../img/img/Rectangle1272.png);
     background-repeat: no-repeat;
@@ -2103,6 +2124,12 @@ header nav ul li a {
     padding: 90px 100px 60px 100px;
     gap: 100px;
 }
+
+.main-bir-con1 img, .main-bir-con2 img {
+    width: 88px;
+    height: 88px;
+}
+
 
 .main-bir-con2 {
     padding: 90px 89px 80px 100px;
@@ -2234,6 +2261,11 @@ header nav ul li a {
     gap: 100px;
 }
 
+.main-sto-con1 img {
+    width: 88px;
+    height: 88px;
+}
+
 .main-sto-con1a {
     width: 337px;
 }
@@ -2341,6 +2373,11 @@ header nav ul li a {
 .main-hol-con1 {
     padding: 57px 150px 94px 150px;
     gap: 355px;
+}
+
+.main-hol-con1 img, .main-hol-con2 img {
+    width: 88px;
+    height: 88px;
 }
 
 .main-hol-con2 {
@@ -3908,6 +3945,14 @@ button:active {
         color: #3D3D3D;
         text-align: start;
         margin-left: -8px;
+    }
+
+    .mylink a:hover {
+        color: #0077B5;
+    }
+
+    .mylink a:active {
+        color: #0077B5;
     }
 
     #img-arrow-down, #img-arrow-down-con {
@@ -5557,12 +5602,524 @@ button:active {
 
     /* Mobile Screen for Products CSS file */
 
+    .main-pro-con-img {
+        background-image: url(../img/img/image56m.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 354px;
+        margin-bottom: 56px;
+    }
+    
+    .main-pro-con-img h1 {
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 137.5px;
+        padding-bottom: 16px;
+    }
+    
+    .main-pro-con-img p {
+        font-size: 16px;
+        line-height: 21px; 
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .main-pro-con1 {
+        align-items: center;
+        gap: 0px;
+        padding: 40px 16px 40px 16px;
+    }
+
+    .main-pro-con1 img {
+        display: none;
+    }
+    
+    .main-pro-con1-img1 {
+        margin-left: 0px;
+    }
+    
+    .main-pro-con1 h1 {
+        font-size: 28px;
+        line-height: 36px;
+        color: #3D3D3D;
+        padding-bottom: 8px;
+    }
+    
+    .main-pro-con1 p {
+        font-size: 14px;
+        line-height: 160%;
+        color: #3D3D3D;
+        padding-bottom: 32px;
+    }
+    
+    .main-pro-con1 button {
+        width: 144px;
+        height: 48px;
+        background: #0077B5;
+        box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+        border-radius: 8px;
+        border: none;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.0125em;
+        color: #FFFFFF; 
+    }
+
+    .main-pro-con1 button:hover {
+        background: #2D9CDB;
+        box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+    }
+    
+    .main-pro-con1 button:active {
+        border: 2px solid #0077B5;
+        box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+        background: #FFFFFF;
+        color: #0077B5;
+    }
+    
+    .main-pro-con1a {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-pro-con1b {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-pro-con1c {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-pro-con1d {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        padding-bottom: 80px;
+    }
+    
+    .main-pro-border {
+        display: none;
+    }
+    
+
+    /* Mobile Screen for Sales CSS file */
+
+    .main-sal-con-img {
+        background-image: url(../img/img/Rectangle1271m.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 336px;
+        margin-bottom: 24px;
+    }
+    
+    .main-sal-con-img h1 {
+        font-size: 32px;
+        line-height: 39px;   
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 80.5px;
+        padding-bottom: 16px;
+    }
+    
+    .main-sal-con-img p {
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    .main-sal-con1 {
+        padding: 64px 31px 0px 31px;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .main-sal-con1 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .main-sal-con1a {
+        display: block;
+        margin: 0 auto;
+        width: 313px;
+    }
+    
+    .main-sal-con1 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0077B5;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .main-sal-con1 ul li {
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+    
+    .main-sal-con1 ul {
+        margin-left: 24px;
+    }
+
+    .main-sal-con2 {
+        display: none;
+    }
+
+    .main-sal-con2-mob {
+        display: block;
+    }
+    
+    .main-sal-con2-mob button {
+        display: block;
+        margin: 0 auto;
+        width: 144px;
+        height: 48px;
+        background: #0077B5;
+        box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+        border-radius: 8px;
+        border: none;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.0125em;
+        color: #FFFFFF;
+        margin-top: 80px;
+        margin-bottom: 120px;
+    }
+    
+    .main-sal-con2-mob button:hover {
+        background: #2D9CDB;
+        box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+    }
+    
+    .main-sal-con2-mob button:active {
+        border: 2px solid #0077B5;
+        box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+        background: #FFFFFF;
+        color: #0077B5;
+    }
+
+    /* Mobile Screen for BiRo CSS file */    
+
+    .main-bir-con3a {
+        display: none;
+    }
+
+    .main-bir-con3a-mob {
+        display: block;
+    }
+
+    .main-bir-con-img {
+        background-image: url(../img/img/Rectangle1272m.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 336px;
+    }
+    
+    .main-bir-con-img h1 {
+        font-size: 32px;
+        line-height: 39px;    
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 56.5px;
+        padding-bottom: 16px;
+    }
+    
+    .main-bir-con-img p {
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        width: 343px;
+        margin: 0 auto;
+    }
+    
+    .main-bir-con1 {
+        padding: 88px 31px 64px 31px;
+        gap: 64px;
+    }
+
+    .main-bir-con1 img, .main-bir-con2 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .main-bir-con2 {
+        padding: 0px 31px 0px 31px;
+        gap: 64px;
+    }
+    
+    .main-bir-con1a, .main-bir-con2a {
+        display: block;
+        margin: 0 auto;
+        width: 313px;
+    }
+
+    .main-bir-con1c {
+        display: block;
+        margin: 0 auto;
+        width: 313px;
+    }
+    
+    .main-bir-con2b {
+        display: block;
+        margin: 0 auto;
+        width: 313px;
+    }
 
 
+    .main-bir-con3 {
+        gap: 0px;
+    }
 
-     /* Mobile Screen for Footer */
+    .main-bir-con1a, .main-bir-con2a, .main-bir-con1c, .main-bir-con2b {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 313px;
+    }
+    
 
-     .footer-container {
+    .main-bir-con1 h1, .main-bir-con2 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0077B5;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+    
+    .main-bir-con1 ul li, .main-bir-con2 ul li {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+    
+    .main-bir-con1 ul, .main-bir-con2 ul {
+        margin-left: 24px;
+    }
+    
+    .main-bir-con1 img, .main-bir-con2a img {
+        margin-left: 0px;
+    }
+    
+    .main-bir-con1c img {
+        margin-left: 0px;
+    }
+    
+    .main-bir-con1 img, .main-bir-con2 img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .main-bir-con2b h1 {
+        text-align: center;
+    }
+    
+    .main-bir-con4 {
+        display: none;
+    }
+    
+
+    /* Mobile Screen for Store CSS file */   
+    
+    .main-sto-con-img {
+        background-image: url(../img/img/Rectangle1273m.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 336px;
+        margin-bottom: 24px;
+    }
+    
+    .main-sto-con-img h1 {
+        font-size: 32px;
+        line-height: 39px;    
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 68.5px;
+        padding-bottom: 16px;
+    }
+    
+    .main-sto-con-img p {
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        width: 343px;
+        margin: 0 auto;
+    }
+    
+    .main-sto-con1 {
+        padding: 64px 16px 0px 16px;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .main-sto-con1 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .main-sto-con1a {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 343px;
+    }
+    
+    .main-sto-con1 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0077B5;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+    
+    .main-sto-con1 ul li {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+    
+    .main-sto-con1 ul {
+        margin-left: 24px;
+    }
+    
+    .main-sto-img1 img {
+        margin-left: 0px;
+    }
+    .main-sto-img2 img {
+        margin-left: 0px;
+    }
+    .main-sto-img3 img {
+        margin-left: 0px;
+    }
+    .main-sto-img4 img {
+        margin-left: 0px;
+    }
+    .main-sto-img5 img {
+        margin-left: 0px;
+    }
+    .main-sto-img6 img {
+        margin-left: 0px;
+    }
+    
+    .main-sto-con1 img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main-sto-con2 {
+        display: none;
+    }
+    
+    /* Mobile Screen for Hotel CSS file */  
+    
+    .main-hol-con-img {
+        background-image: url(../img/img/Rectangle1274m.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 336px;
+    }
+    
+    .main-hol-con-img h1 {
+        font-size: 32px;
+        line-height: 39px;   
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 68.5px;
+        padding-bottom: 16px;
+    }
+    
+    .main-hol-con-img p {
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        width: 343px;
+        margin: 0 auto;
+    }
+    
+    .main-hol-con1 {
+        padding: 88px 31px 64px 31px;
+        gap: 64px;
+    }
+    
+    .main-hol-con1 img, .main-hol-con2 img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .main-hol-con2 {
+        padding: 0px 31px 0px 30px;
+        gap: 64px;
+    }
+    
+    .main-hol-con1a {
+        display: block;
+        margin: 0 auto;
+        width: 313px;
+    }
+    
+    .main-hol-con1 h1, .main-hol-con2 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #0077B5;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .main-hol-con1 ul li, .main-hol-con2 ul li {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.005em;
+        color: #3D3D3D;
+    }
+    
+    .main-hol-con1 ul, .main-hol-con2 ul {
+        margin-left: 24px;
+    }
+    
+    .main-hol-con3 {
+        display: none;
+    }
+    
+    
+
+
+    /* Mobile Screen for Products CSS file */    
+
+    /* Mobile Screen for Footer */
+
+    .footer-container {
         height: auto;
         background: #FCFEFF;
         margin: 0 auto;

@@ -260,7 +260,7 @@
         </section>
         <section class="main-section1 main-hol-con1">
             <div class="main-hol-con1a">
-                <img src="img/img/features.png" alt="Features Description" width="88px" height="88px">
+                <img src="img/img/features.png" alt="Features Description">
                 <h1>FEATURES DESCRIPTION</h1>
                 <ul>
                     <li>Point of Sale (POS)</li>
@@ -281,7 +281,7 @@
                 </ul>
             </div>
             <div class="main-hol-con1a">
-                <img src="img/img/entries.png" alt="Master Entries" width="88px" height="88px">
+                <img src="img/img/entries.png" alt="Master Entries">
                 <h1>MASTER ENTRIES</h1>
                 <ul>
                     <li>Hotel Master</li>
@@ -305,7 +305,7 @@
         </section>
         <section class="main-section1 main-hol-con2">
             <div class="main-hol-con1a">
-                <img src="img/img/utilities.png" alt="Utilities" width="88px" height="88px">
+                <img src="img/img/utilities.png" alt="Utilities">
                 <h1>UTILITIES</h1>
                 <ul>
                     <li>User Rights Management</li>
@@ -319,7 +319,7 @@
                 </ul>
             </div>
             <div class="main-hol-con1a">
-                <img src="img/img/academic.png" alt="Accountings" width="88px" height="88px">
+                <img src="img/img/academic.png" alt="Accountings">
                 <h1>ACCOUNTINGS</h1>
                 <ul>
                     <li>Room Services</li>
@@ -344,6 +344,36 @@
         <section class="main-hol-con3">
             <button onclick="myOpenFunction()">Get a Quote</button>
         </section>
+        <div class="main-sal-con2-mob">
+            <button onclick="myMenuMobOpenFunction()">Get a Quote</button>
+            <div id="myMenuMobModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.svg" alt="" width="24px" height="24px" class="close-img" onclick="myMenuMobCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>  
+                            <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                            <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            <div class="custom-select">
+                               <!-- <span><img src="img/img/down.png" alt="" id="select-img-down"></span> -->
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
      </main>
      <footer class="footer-container">
         <section class="main-section1 footer-section-div">

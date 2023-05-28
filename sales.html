@@ -260,7 +260,7 @@
         </section>
         <section class="main-section1 main-sal-con1">
             <div class="main-sal-con1a">
-                <img src="img/img/setup.png" alt="Administration/Setup" width="88px" height="88px">
+                <img src="img/img/setup.png" alt="Administration/Setup">
                 <h1>ADMINISTRATION/SETUP</h1>
                 <ul>
                     <li>Company Master</li>
@@ -272,7 +272,7 @@
                 </ul>
             </div>
             <div class="main-sal-con1a">
-                <img src="img/img/vendors.png" alt="Vendors Accounts" width="88px" height="88px">
+                <img src="img/img/vendors.png" alt="Vendors Accounts">
                 <h1>VENDORS ACCOUNTS</h1>
                 <ul>
                     <li>User creation/Logins</li>
@@ -284,7 +284,7 @@
                 </ul>
             </div>
             <div class="main-sal-con1a">
-                <img src="img/img/order.png" alt="Purchase/Order" width="88px" height="88px">
+                <img src="img/img/order.png" alt="Purchase/Order">
                 <h1>PURCHASE/ORDER</h1>
                 <ul>
                     <li>Purchase Stock Adjust</li>
@@ -298,7 +298,7 @@
         </section>
         <section class="main-section1 main-sal-con1">
             <div class="main-sal-con1a">
-                <img src="img/img/alarms.png" alt="Alarms/Expiry Alert" width="88px" height="88px">
+                <img src="img/img/alarms.png" alt="Alarms/Expiry Alert">
                 <h1>ALARMS/EXPIRY ALERT</h1>
                 <ul>
                     <li>Near Expiry Items</li>
@@ -309,7 +309,7 @@
                 </ul>
             </div>
             <div class="main-sal-con1a">
-                <img src="img/img/report.png" alt="Reports" width="88px" height="88px">
+                <img src="img/img/report.png" alt="Reports">
                 <h1>PAYMENT/ RECEIVING/ EXPENSES REPORTS</h1>
                 <ul>
                     <li>Vendor Ledger Report</li>
@@ -322,7 +322,7 @@
                 </ul>
             </div>
             <div class="main-sal-con1a">
-                <img src="img/img/sales.png" alt="Sales/Payments" width="88px" height="88px">
+                <img src="img/img/sales.png" alt="Sales/Payments">
                 <h1>SALES/PAYMENTS</h1>
                 <ul>
                     <li>Vendor debit/credit</li>
@@ -335,6 +335,36 @@
         <section class="main-sal-con2">
             <button onclick="myOpenFunction()">Get a Quote</button>
         </section>
+        <div class="main-sal-con2-mob">
+            <button onclick="myMenuMobOpenFunction()">Get a Quote</button>
+            <div id="myMenuMobModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.svg" alt="" width="24px" height="24px" class="close-img" onclick="myMenuMobCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>  
+                            <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                            <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            <div class="custom-select">
+                               <!-- <span><img src="img/img/down.png" alt="" id="select-img-down"></span> -->
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
      </main>
      <footer class="footer-container">
         <section class="main-section1 footer-section-div">

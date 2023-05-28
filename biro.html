@@ -260,7 +260,7 @@
         </section>
         <section class="main-section1 main-bir-con1">
             <div class="main-bir-con1a">
-                <img src="img/img/website.png" alt="Website Features" width="88px" height="88px">
+                <img src="img/img/website.png" alt="Website Features">
                 <h1>WEBSITE FEATURES</h1>
                 <ul>
                     <li>School Event Update</li>
@@ -271,7 +271,7 @@
                 </ul>
             </div>
             <div class="main-bir-con1a">
-                <img src="img/img/finance.png" alt="Financial Features" width="88px" height="88px">
+                <img src="img/img/finance.png" alt="Financial Features">
                 <h1>FINANCIAL FEATURES</h1>
                 <ul>
                     <li>Student Fee Invoice Creation</li>
@@ -283,7 +283,7 @@
                 </ul>
             </div>
             <div class="main-bir-con1c">
-                <img src="img/img/itsupport.png" alt="IT Support" width="88px" height="88px">
+                <img src="img/img/itsupport.png" alt="IT Support">
                 <h1>IT SUPPORT</h1>
                 <ul>
                     <li>IT Support Services</li>
@@ -295,7 +295,7 @@
         </section>
         <section class="main-section1 main-bir-con2">
             <div class="main-bir-con2a">
-                <img src="img/img/setup.png" alt="Administrative Features" width="88px" height="88px">
+                <img src="img/img/setup.png" alt="Administrative Features">
                 <h1>ADMINISTRATIVE FEATURES</h1>
                 <ul>
                     <li>Library Manager</li>
@@ -312,8 +312,29 @@
                 </ul>
             </div>
             <div class="main-bir-con2b">
-                <img src="img/img/academic.png" alt="Academic Features" width="88px" height="88px">
+                <img src="img/img/academic.png" alt="Academic Features">
                 <h1>ACADEMIC FEATURES</h1>
+                <ul class="main-bir-con3a-mob">
+                    <li>Intuitive Admission Form</li>
+                    <li>Bulk Student Account Creation</li>
+                    <li>Student Profile Info Viewer</li>
+                    <li>Student Academic Report</li>
+                    <li>Student ID Card Generator</li>
+                    <li>Student Yearly Promotion</li>
+                    <li>Session Wise Data Manager</li>
+                    <li>Class and Section Manager</li>
+                    <li>Academic Syllabus Manager</li>
+                    <li>Class Routine Scheduler</li>
+                    <li>Student Daily Attendance</li>
+                    <li>Printable Attendance Report</li>
+                    <li>Study Document Distribution</li>
+                    <li>Exams Mark Sent by SMS</li>
+                    <li>Question Printing for Teachers</li>
+                    <li>Student Grade/Mark Manager</li>
+                    <li>Online Exam Manager</li>
+                    <li>Online Report Manager</li>
+                    <li>Class Wise Exam Mark Report</li>
+                </ul>
                 <div class="main-section1 main-bir-con3">
                     <ul class="main-bir-con3a">
                         <li>Intuitive Admission Form</li>
@@ -344,6 +365,36 @@
         <section class="main-bir-con4">
             <button onclick="myOpenFunction()">Get a Quote</button>
         </section>
+        <div class="main-sal-con2-mob">
+            <button onclick="myMenuMobOpenFunction()">Get a Quote</button>
+            <div id="myMenuMobModal" class="modal-overlay">
+                <div class="modal-container">
+                    <div class="modal-header modal-section1">
+                        <p>Get a Quote</p>
+                        <img src="img/img/cancel.svg" alt="" width="24px" height="24px" class="close-img" onclick="myMenuMobCloseFunction()">
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post">
+                            <input type="text" name="Full Name" id="name" placeholder="Full Name" maxlength="30" required>  
+                            <input type="tel" name="" id="tel" placeholder="Phone Number" maxlength="30" required>
+                            <input type="email" name="" id="email" placeholder="Email Address" maxlength="40" required>
+                            <div class="custom-select">
+                               <!-- <span><img src="img/img/down.png" alt="" id="select-img-down"></span> -->
+                               <select name="service" id="select">
+                                <option value="0">Choose a service</option>
+                                <option value="1">Software Development</option>
+                                <option value="2">IT Support</option>
+                                <option value="3">Consultancy</option>
+                                <option value="4">Network Design</option>
+                               </select> 
+                            </div>
+                            <textarea name="message" id="message" placeholder="Tell us about your business..." maxlength="1200" required></textarea>
+                            <input type="submit" value="Get a Quote" id="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
      </main>
      <footer class="footer-container">
         <section class="main-section1 footer-section-div">
