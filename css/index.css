@@ -2442,6 +2442,11 @@ header nav ul li a {
     padding: 149px 60px 131px 60px;
 }
 
+.main-blo-con1a img {
+    width: 550px;
+    height: 307px;
+}
+
 
 .main-blo-con1b {
     width: 550px;
@@ -2462,7 +2467,7 @@ header nav ul li a {
     font-size: 16px;
     line-height: 28px;
     text-decoration-line: underline;
-    color: #0A2640;
+    color: #3D3D3D;
 }
 
 .main-blo-con1c p {
@@ -2507,7 +2512,7 @@ header nav ul li a {
 .main-blo-border {
     width: 1200px;
     height: 1px;
-    background: #0A2640;
+    background: #3D3D3D;
     margin: 0 auto;
 }
 
@@ -2547,7 +2552,7 @@ header nav ul li a {
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
-    color: #0A2640;
+    color: #3D3D3D;
 }
 
 .main-blo-con2b p {
@@ -2568,8 +2573,24 @@ header nav ul li a {
     color: #3D3D3D;
 }
 
+.main-blo-con2a h1:hover, .main-blo-con1b h1:hover {
+    color: #0077B5;
+} 
+
+.main-blo-con2a h1:active, .main-blo-con1b h1:active {
+    color: #0077B5;
+} 
+
 
 /* ||  BLOG2 CSS FILE */
+
+.main-blo2-con3a {
+    display: block;
+}
+
+.main-blo2-con3a-mob {
+    display: none;
+}
 
 .main-blo2-con1 {
     padding: 25px 100px 45px 100px;
@@ -2604,6 +2625,26 @@ header nav ul li a {
     align-items: center;
     justify-content: space-between;
     padding: 25px 140px 70px 108px;
+}
+
+.main-blo2-con3a .users {
+    width: 31px;
+    height: 31px;
+}
+
+.main-blo2-con3a .date {
+    width: 28px;
+    height: 28px;
+}
+
+.main-blo2-con3a .lock {
+    width: 12px;
+    height: 20px;
+}
+
+.main-blo2-con2a img {
+    width: 300px;
+    height: 209px;
 }
 
 .main-blo2-con3a {
@@ -2738,6 +2779,14 @@ header nav ul li a {
 
 .main-blo2-con5 {
     padding-bottom: 114px;
+}
+
+.main-blo2-con2a h1:hover {
+    color: #0077B5;
+} 
+
+.main-blo2-con2a h1:active {
+    color: #0077B5;
 }
 
 
@@ -6112,8 +6161,327 @@ button:active {
         display: none;
     }
     
-    
 
+    /* Mobile Screen for Blog CSS file */ 
+    
+    .main-blo-con1 {
+        align-items: center;
+        gap: 40px;
+        padding: 64px 16px 64px 16px;
+    }
+    
+    .main-blo-con1a img {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        height: 191px;
+    }
+    
+    
+    .main-blo-con1b {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-blo-con1c {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        padding-bottom: 8px;
+    }
+    
+    .main-blo-con1c h3 {
+        font-size: 14px;
+        line-height: 150%;
+        text-decoration-line: underline;
+        color: #3D3D3D;
+    }
+    
+    .main-blo-con1c p {
+        font-size: 14px;
+        line-height: 150%;
+        text-decoration-line: underline;
+        color: #777777;
+    }
+    
+    .main-blo-con1b h1 {
+        font-size: 28px;
+        line-height: 150%;
+        text-decoration-line: underline;
+        color: #3D3D3D;
+        padding-bottom: 16px;
+    }
+    
+    .main-blo-con1d {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .main-blo-con1d p {
+        font-size: 14px;
+        line-height: 28px;
+        text-decoration-line: underline;
+        color: #3D3D3D;
+    }
+    
+    .main-blo-border {
+        width: 343px;
+        height: 1px;
+        background: #3D3D3D;
+        margin: 0 auto;
+    }
+    
+    .main-blo-con2 {
+        gap: 40px;
+        padding-top: 64px;
+    }
+    
+    .main-blo-con3 {
+        gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    
+    .main-blo-con2a {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: auto;
+    }
+    
+    .main-blo-con2a img {
+        border-radius: 24px;
+    }
+    
+    .main-blo-con2b {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        padding-top: 16px;
+        padding-bottom: 8px;   
+    }
+    
+    .main-blo-con2b h3 {
+        font-size: 14px;
+        line-height: 28px;
+        color: #3D3D3D;
+    }
+    
+    .main-blo-con2b p {
+        font-size: 14px;
+        line-height: 28px;
+        color: #777777;
+    }
+    
+    .main-blo-con2a h1 {
+        font-size: 18px;
+        line-height: 150%;
+        color: #3D3D3D;
+    }
+        
+
+    /* Mobile Screen for Blog2 CSS file */    
+
+    .main-blo2-con3a {
+        display: none;
+    }
+    
+    .main-blo2-con3a-mob {
+        display: block;
+    }
+
+
+    .main-blo2-con1 {
+        padding: 64px 16px 40px 16px;
+    }
+    
+    .main-blo2-con1 h1 {
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        color: #3D3D3D;
+        padding-top: 0px;
+        padding-bottom: 24px;
+    }
+    
+    .main-blo2-con-img {
+        background-image: url(../img/img/FeaturedArticle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 343px;
+        height: 140px;
+        border-radius: 22.4734px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .main-blo2-con3-mob {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+
+    .main-blo2-con3 {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+        padding: 40px 0px 94px 0px;
+    }
+    
+    .main-blo2-con3a-mob .users {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .main-blo2-con3a-mob .date {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .main-blo2-con3a-mob .lock {
+        width: 13.14px;
+        height: 20px;
+    }
+    
+    .main-blo2-con2a img {
+        width: 343px;
+        height: 209px;
+    }
+    
+    .main-blo2-con3b img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .main-blo2-mob-flex {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        gap: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .main-blo2-con3a p {
+        font-size: 12px;
+        line-height: 150%;
+        color: #3D3D3D;
+    }
+
+    
+    
+    .main-blo2-con3b {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    #tt {
+        margin-top: 0px;
+    }
+    
+    #ww {
+        margin-top: 0px;
+    }
+    
+    .main-blo2-con4 {
+        padding: 0px 0px 64px 0px;
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+    }
+    
+    .main-blo2-con4 p {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.03em; 
+        color: #3D3D3D;
+    }
+    
+    .main-blo2-con4 h1 {
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        color: #3D3D3D;
+    }
+    
+    .main-blo2-con4 .p1 {
+        padding-bottom: 0px;
+        display: none;
+    }
+    .main-blo2-con4 .p2 {
+        padding-bottom: 16px;
+    }
+    .main-blo2-con4 .p3 {
+        padding-bottom: 16px;
+    }
+    .main-blo2-con4 .h1 {
+        padding-bottom: 16px;
+    }
+    .main-blo2-con4 .hp {
+        padding-bottom: 16px;
+    }
+    
+    .main-blo2-con2 {
+        gap: 64px;
+    }
+    
+    
+    .main-blo2-con2a {
+        display: block;
+        margin: 0 auto;
+        width: 343px;
+        height: auto;
+    }
+    
+    .main-blo2-con2a img {
+        border-radius: 24px;
+    }
+    
+    .main-blo2-con2b {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        padding-top: 24px;
+        padding-bottom: 12px;   
+    }
+    
+    .main-blo2-con2b h3 {
+        font-size: 14px;
+        line-height: 150%;
+        color: #0A2640;
+    }
+    
+    .main-blo2-con2b p {
+        font-size: 14px;
+        line-height: 150%;
+        color: #777777;
+    }
+    
+    .main-blo2-con2a h1 {
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+    }
+    
+    .main-blo2-con5 {
+        padding-bottom: 80px;
+    }
+    
 
     /* Mobile Screen for Products CSS file */    
 
