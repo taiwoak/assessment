@@ -849,6 +849,14 @@ header nav ul li a {
     color: #EB5757;
 }
 
+.section4-main-div h5:hover {
+    color: #3D3D3D;
+}
+
+.section4-main-div h5:active {
+    color: #3D3D3D;
+}
+
 .section4-main-div .arrow {
     margin-bottom: -3px;
 }
@@ -3764,6 +3772,14 @@ header nav ul li a {
     padding-bottom: 16px;    
 }
 
+.footer-section-div2 h1:hover, .footer-section-div2 p:hover {
+    color: #0077B5;
+}
+
+.footer-section-div2 h1:active, .footer-section-div2 p:active {
+    color: #0077B5;
+}
+
 .footer-section-div2a p {
     display: inline-block;
 }
@@ -3780,6 +3796,18 @@ header nav ul li a {
     font-size: 13px;
     line-height: 28px;
     color: #0A2640;    
+}
+
+.footer-section-div2a button:hover {
+    background: #2D9CDB;
+    box-shadow: 4px 10px 60px -12px rgba(0, 119, 181, 0.5);
+    color: #FFFFFF;
+}
+
+.footer-section-div2a button:hover {
+    background: #0077B5;
+    box-shadow: 4px 24px 45px -12px rgba(0, 119, 181, 0.15);
+    color: #FFFFFF;
 }
 
 .footer-section-div3 p {
@@ -4643,6 +4671,14 @@ button:active {
     
     .menu-section4-div3b h5 {
         color: #EB5757;
+    }
+
+    .menu-section4-main-div h5:hover {
+        color: #3D3D3D;
+    }
+    
+    .menu-section4-main-div h5:active {
+        color: #3D3D3D;
     }
     
     .menu-section4-main-div .arrow {
@@ -6483,6 +6519,11 @@ button:active {
     }
     
 
+    /* Mobile Screen for About CSS file */ 
+    
+    
+
+
     /* Mobile Screen for Products CSS file */    
 
     /* Mobile Screen for Footer */
@@ -6586,6 +6627,7 @@ button:active {
         line-height: 28px;
         color: #0A2640;    
     }
+
     
     .footer-section-div3 p {
         font-size: 12px;
