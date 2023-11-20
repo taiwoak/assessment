@@ -2960,6 +2960,9 @@ header nav ul li a {
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
+}
+
+.main-abo-con2a, .main-abo-con2b, .main-abo-con2d, .main-abo-con2e {
     cursor: pointer;
 }
 
@@ -6665,7 +6668,6 @@ button:active {
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
-        cursor: pointer;
     }
     
     .main-abo-con2 img {
@@ -6676,21 +6678,25 @@ button:active {
     .main-abo-con2a {
         height: 240px; 
         background: #0077B5;
+        flex: 100%;
     }
     
     .main-abo-con2b {
         height: 240px;
         background: #F2F8FB;
+        flex: 100%;
     }
     
     .main-abo-con2d {
         height: 240px; 
         background: #0077B5;
+        flex: 100%;
     }
     
     .main-abo-con2e {
         height: 240px;
         background: #F2F8FB;
+        flex: 100%;
     }
     
     
