@@ -8,6 +8,7 @@ aboutOne.addEventListener('mouseover', function handleMouseOver() {
   document.getElementById('main-about1').innerHTML = about;
 });
 
+
 // header.classList.add("on-scroll");
 
 // 👇️ Change text content back on mouseout
